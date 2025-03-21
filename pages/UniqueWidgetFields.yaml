@@ -1,0 +1,914 @@
+# Common xpath for widget tab headers and fields
+pageName: UniqueWidgetFields
+
+locator:
+  ########  Common Field Locators     ########
+
+  CanvasBody:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid//div"
+
+  CanvasSave:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='canvas-save']"
+
+  FOFields:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='FO Fields']"
+
+  BoAllWidgets:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='All Widgets' or text()='Widgets']"     
+
+  GENERAL:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' GENERAL ']"
+
+  INPUT:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' INPUT ']"
+
+  VALUES:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' VALUES ']"  
+
+  TEXT:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' TEXT ']"    
+
+  VALIDATIONS:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' VALIDATIONS ']"
+
+  CONFIGURATIONS:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' CONFIGURATIONS ']"
+
+  Events:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Events ']"
+
+  Body:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' BODY ']"
+
+  NUMBER FORMAT:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' NUMBER FORMAT ']"
+
+  STYLE:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' STYLE ']"
+
+  TOASTCONFIG:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Toast Config ']"
+
+  AVATAR:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Avatar ']"
+
+  Fields:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Fields' or text()='FO Fields']"  
+
+
+  # GENERAL TAB LOCATORS
+
+  FieldName:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Field Name']/../..//input"
+
+  FieldLabel:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Field Label']/../..//input"
+
+  PlaceHolder:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Placeholder']/../..//input"
+
+  AllowWrapping:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Allow Wrapping']/../..//input[@type='checkbox']/../..//div//span[@class='p-checkbox-icon']"
+
+  Maximum:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Maximum']/../..//input"
+
+  Minimum:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Minimum']/../..//input"
+
+  MaxLength:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Max Length']/../..//input"
+
+  BackgroundColor:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Background Color']/../..//input"
+
+  BackgroundColorInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'color-picker')]//div[contains(@class,'hex-text')]//input"
+
+  #INPUT TAB LOCATORS
+
+  # Not Covered -> Prefix Icon, Suffix Icon and Prefix/Suffix color
+
+  ShowClearButton:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show Clear Button']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']"
+
+  ShowStepperButtons:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show Stepper Buttons']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']"
+
+  Step:
+    typeOfLocator: xpath
+    attributeValue: //*[text()=' Step']/../..//input""
+
+  DefaultValue:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),' Default')]/../..//input"
+
+  PrefixText:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Prefix Text']/../..//input"
+
+  SuffixText:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Suffix Text']/../..//input"
+
+  ToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Tooltip']/../..//input"
+
+  Style:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' Style']/..//..//span)[1]"
+
+  # VALIDATIONS TAB LOCATORS
+
+  Required:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Required' or text()=' Always be checked']/../..//input[@type='checkbox']/../..//div[contains(@class,'p-checkbox')]"
+
+  Hide:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Hide']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']"
+
+  ReadOnly:
+    typeOfLocator: xpath
+    attributeValue: "(//*[text()=' Read Only']/../..//input[@type='checkbox']/../..//div)[2]"
+
+  IsUnique:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Is Unique']/../..//input[@type='checkbox']/../..//div//span[@class='p-checkbox-icon']"
+
+  ThousandsSeparator:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Thousands Separator']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']"
+
+  TypeOfFormat:
+    typeOfLocator: xpath
+    attributeValue: "(//div[normalize-space(text())='Standard']/..//..//span)[1]"
+
+  Standard:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Standard']"
+
+  Decimal:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Decimal']"
+
+  MinFraction:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Minimum Fraction digits']/../..//input"
+
+  MaxFraction:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Maximum Fraction digits']/../..//input"
+
+  # Currency:
+  #   typeOfLocator: xpath
+  #   attributeValue: "//span[text()='Currency']"
+
+  CurrencyDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Currency']/../..//div[@role='button']/..//span[text()='Select a currency']"
+    
+
+  CONTAINER:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' CONTAINER ']"
+
+  Title:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Title']/../..//input"
+
+  LeftIcon:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Left Icon']/../..//button"
+
+  RightIcon:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Right Icon']/../..//button"
+
+  Message:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Message']/../..//input"
+
+  ManualOptions:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Options Type ']/../..//div//span[text()='Manual']"
+
+  ConfigureOptions:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Options Type ']/../..//div//span[text()='Configure']"
+
+  ConfigureDataPopulation:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Configure Data Population']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']"
+
+  LabelsAndValues:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Labels & Values']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']"
+
+  #RadioGroup #Checkbox group
+
+  #Values
+  ValueAlignHorizontal:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Values Alignment ']/..//..//span[text()='Horizontal']"
+
+  ValueAlignVertical:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Values Alignment ']/..//..//span[text()='Vertical']"
+
+  LabelsValues:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Labels & Values']/..//..//div[@class='p-checkbox-box']"
+
+  ColumnsIfvertical:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Columns']/..//../..//input"
+
+  ClickValue:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()='Values']/..//button)[1]"  
+
+  AddItem:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()='Add item']"
+
+  ValuesValue:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Value']/../..//input[@type='text']"
+
+  Valuestooltip:
+    typeOfLocator: xpath
+    attributeValue: "//ngb-popover-window//div[@class='f-input-container']//input"
+
+  #Divder
+  #General
+  Text:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text[@name='text']//input"
+
+  AlignmentHorizontal:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='alignment']//span[text()='Horizontal']"
+
+  AlignmentVertical:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='alignment']//span[text()='Vertical']"
+
+      #Divider 
+
+  DividerText:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text[@name='text']//input"
+
+  PositionLeft:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Position ']/../..//span[text()='Left']"
+
+  PositionCenter:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Position ']/../..//span[text()='Center']" 
+
+  PositionRight:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Position ']/../..//span[text()='Right']"  
+
+  FontFamily:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='fontFamily']//div[@role='button']"    
+
+  FontSize:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='fontSize']//div[@role='button']"        
+      #style
+
+  BorderStyle:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='borderStyle']//span[@class='p-dropdown-trigger-icon ng-tns-c64-41 pi pi-chevron-down']"
+
+  BorderColor:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='borderColor']//input[@class='p-inputtext p-inputtext-xs']"
+
+  TextColor:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='textColor']//input[@class='p-inputtext p-inputtext-xs']"
+
+  #Password
+
+  PrefixIcon:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='leftIcon']//span[text()='Select Icon']"
+
+  ShowIcon:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Show Icon']//span[text()='Select Icon']"
+
+  HideIcon:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Hide Icon']//span[text()='Select Icon']"
+
+  #Container
+  #Events
+
+  EventClickAction:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='config-title-container']//div"
+
+  EventAddConfig:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Config']"
+
+  DeleteAction:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-icon-preview[@icon='pi pi-trash']"
+
+  EventTitleInputbox:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='popover-body']//div[contains(text(),'Title')]/parent::div/following-sibling::div//input"
+
+  EventStatusInputbox:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='popover-body']//div[contains(text(),'Status')]/parent::div/following-sibling::div//span)[1]"
+
+  EventClickActionInputbox:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='popover-body']//div[contains(text(),'Click Action')]/parent::div/following-sibling::div//span)[1]"
+
+  EventConfigureAPIButton:
+    typeOfLocator: xpath
+    attributeValue: "//app-btn-primary[@label='Configure API']//span"  
+    
+  #Body
+  BackgroundImage:
+    typeOfLocator: xpath
+    attributeValue: "//div//finlevit-lib-textarea[@name='bgImageUrl']//textarea"
+
+  #TABCONTAINER
+
+  #Tab
+  TABS:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' TABS ']"
+
+  AddTab:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()='Add Tab']"
+
+  AddTabFieldName:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='popover-body']//input)[1]"
+
+  AddTabTabLabel:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='popover-body']//input)[2]"
+
+  ExisitingTab:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Tab 1']"
+  
+
+  #CollapseContainer
+
+  #Widgets
+  #search_cancel_Edit
+
+  SearchWidget:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search Components']"
+
+  WidgetSave:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='widget-save']"
+
+  SavedSuccessfully:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Saved successfully')]"
+
+  CancelSearchWidget:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search Components']/parent::div//span[1]"
+
+  EditWidget:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menu']//span[text()='Edit']"
+
+  DeleteWidget:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menu']//span[text()='Delete']" 
+
+  DeleteSubmit:
+    typeOfLocator: xpath
+    attributeValue: "//button//span[contains(text(),'Delete')]"    
+
+  ExpandcontainerWidget:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='bounding-box visible']//div[@class='corner bottom-right']//div[@class='resize-handle']"
+
+  DateFormat:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Date Format']/../..//div[@role='button']"
+
+  ReturnDateFormat:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Return Date Format']/../..//div[@role='button']"
+
+  DefaultDate:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Default Date']/../..//input"
+
+  ShowTime:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show time']/../..//input[@type='checkbox']/../..//div//span[@class='p-checkbox-icon']"
+
+  StepHour:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Step Hour']/../..//input"
+
+  StepMinutes:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Step Minutes']/../..//input"
+
+  SelectFormat:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Select Format']/../..//div[@role='button']"
+
+  MinDate:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Min Date']/../..//input"
+
+  MaxDate:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Max Date']/../..//input"
+
+  Rows:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Rows']/../..//input"
+
+  AddAction:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()='Add Action']"
+
+  SelectPattern:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Select Pattern']/../../..//div[@role='button']"
+
+  SSN:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='SSN']"
+
+  ITIN:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='ITIN']"
+
+  #text widget
+
+  Value:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Value']/../..//textarea"
+
+  TextStyle:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Style']/../..//div[@role='button']"
+
+  HorizontalLeft:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Horizontal Align ']/../..//span[text()='Left']"  
+
+  HorizontalCenter:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Horizontal Align ']/../..//span[text()='Center']"  
+
+  HorizontalRight:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Horizontal Align ']/../..//span[text()='Right']"  
+
+  VerticalTop:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Vertical Align ']/../..//span[text()='Top']" 
+
+  VerticalMiddle:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Vertical Align ']/../..//span[text()='Middle']"  
+
+  VerticalBottom:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Vertical Align ']/../..//span[text()='Bottom']"        
+
+  SelectFirstCountry:
+    typeOfLocator: xpath
+    attributeValue: "(//p-dropdownitem//li[@role='option'])[1]"    
+
+  CurrencySearch:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search']"   
+
+  AddressDetail:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()='Address Details']"  
+
+  AreaofExpertise:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()='Address Details']"   
+
+#ExistingApp#Payload
+  UploadPayload:
+    typeOfLocator: xpath
+    attributeValue: "(//finlevit-button//span[text()='Upload Payload'])[1]"
+
+  PayloadSave:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-button//span[text()='Save']" 
+
+  ChooseFile:
+    typeOfLocator: xpath
+    attributeValue: "//input[@type='file']"  
+
+  SelectSource:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Select Source']"
+
+  Next:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Next']"  
+
+  ObjectExpand:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='label col-3 toggle-section']//finlevit-button)"   
+
+  SelectWidget:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='mat-tree-node'])//input[@placeholder='Select Widget']/../..//span[contains(@class,'p-dropdown-label')]" 
+
+  SelectType:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='mat-tree-node'])[1]//input[@placeholder='Select type']/../..//span[contains(@class,'p-dropdown-label')]"       
+
+#BO
+  prePopulate:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Pre Populate']/../..//div[@class='p-checkbox-box']"
+
+  DividerExpand:
+    typeOfLocator: xpath
+    attributeValue: "(//mat-divider[@role='separator']/../../../../../..//div[contains(@class,'gridster-item-resizable-handler')])[1]"  
+
+# Event Change Action
+  OnChangeActionDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@label='On Change Action']//p-dropdown//span)[1]"
+
+  DataResourcesDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@label='Data Resources' or @label='Data Source']//p-dropdown//span)[1]"
+
+  DatalistDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@label='Data Lists' or @label='Data List']//p-dropdown//span)[1]"
+
+  TypeDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@label='Type']//p-dropdown//span)[1]"
+
+  FilterInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Filter']/../..//input"
+
+  FilterDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//*[text()=' filter']/../..//p-dropdown//span)[1]"
+
+  IdInput:
+    typeOfLocator: xpath 
+    attributeValue: "//div[text()=' Id']/../..//input"
+    
+  IdDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//*[text()=' id']/../..//p-dropdown//span)[1]"
+   
+# Configure Input for Dropdown
+  AddoptionConfig:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()='Add Option Config']"
+
+  TriggerDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@label='Trigger']//p-dropdown//span)[1]"
+
+  OptionLabelDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Option Label']//input"
+
+  OptionValueDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Option Value']//input"
+
+  DefaultKeyDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Default key']//input"
+
+  SelectConfig:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Config-')]"
+
+  ResponseFieldDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Response Field']//input"
+
+  WidgetName:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='widget-name']"
+
+#PrefixIcon-Search Icon
+   
+  SearchIcon:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search Icon']"
+
+  SelectIcon:
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='p-element material-icons each-icon ng-star-inserted']"  
+
+  IconStyle:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-icon-picker//span[contains(@class,'p-dropdown-label p-inputtext ng-star-inserted')]"  
+
+  SuffixIcon:
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='rightIcon']//span[text()='Select Icon']"  
+
+  WidgetLabel:
+    typeOfLocator: xpath
+    attributeValue: "//gridster-item//div[@class='f-input-label f-input-label-custom']"   
+
+  FieldNameValidation:
+    typeOfLocator: xpath
+    attributeValue: "//small[contains(@class,'validation-message')]"     
+
+  CanvasWidgetClearbutton:
+    typeOfLocator: xpath
+    attributeValue: "//button//finlevit-icon-preview[@icon='pi pi-times clear-icon']"   
+
+  WidgetTextField:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text//span//i[@class='null pi pi-times-circle primeng ng-star-inserted']"    
+
+  WidgetClose:
+    typeOfLocator: xpath
+    attributeValue: "(//app-widgets[@class='widgets']//button[@type='button'])[1]" 
+
+  WidgetLabelToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//em[@class='p-element label-tooltip pi pi-info-circle pl-2 ng-star-inserted']"  
+
+  OptionsClick:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='config-title-container']" 
+
+  DefaultValueDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),' Default Value')]/../..//span)[1]"  
+
+  FormulaField:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Formula Field']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']" 
+
+  ConfigureFormula:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Configure Formula']"            
+
+
+    
+  FirstOption:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()='Options']/..//button[contains(@popoverclass,'popover')]"
+
+  Add Column:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(@class,'config-popover')]//span[text()='Add Column']"
+
+  ResponsePathDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Response Field' or text()=' Response Path' or text()=' Request Field']/ancestor::finlevit-lib-cascade-select//input"
+
+  ColumnDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-lib-cascade-select[@label='Column']//input"
+
+  Cancel:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Cancel']" 
+
+  TextWidgetCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-grid//gridster//gridster-item//*[@class='text-content text-style-body1 ng-star-inserted']"  
+
+  CheckBox:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' CHECKBOX ']" 
+
+  CheckBoxDefaultValueChecked:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Checked']/../..//div[@class='p-radiobutton-box']"   
+
+  CheckboxLabel:
+    typeOfLocator: xpath
+    attributeValue: "//gridster-item//div[@class='f-input f-input-custom']"  
+
+  CanvasCheckBoxDefaultValueChecked:
+    typeOfLocator: xpath
+    attributeValue: "//gridster-item//div[@class='p-checkbox-box p-highlight']"  
+
+
+  TextAreaTextFiled:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//finlevit-lib-textarea//*[contains(@class,'p-inputtextarea p-inputtext')]"   
+
+  DIVIDER:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' DIVIDER ']"   
+
+  DividerFontFamily:
+    typeOfLocator: xpath
+    attributeValue: "(//*[contains(text(),'Font Family')]/../..//span)[1]"  
+
+#ICON
+
+  IconIcon:
+    typeOfLocator: xpath
+    attributeValue: "//button[@placement='right left right-top left-top']"   
+
+  IconCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-grid//gridster//gridster-item[@class='selected ng-star-inserted']"      
+
+  IconLeft:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-select-button[@label='Horizontal']//div[@aria-labelledby='Left']"  
+
+  IconCanvasLeft:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//div[@class='input-container ng-star-inserted']//div[contains(@style,'justify-content: left')]"                
+    
+  IconRight:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-select-button[@label='Horizontal']//div[@aria-labelledby='Right']"  
+
+  IconCanvasRight:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//div[@class='input-container ng-star-inserted']//div[contains(@style,'justify-content: right')]"                
+                  
+  IconCenter:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-select-button[@label='Horizontal']//div[@aria-labelledby='Center']"  
+
+  IconCanvasCenter:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//div[@class='input-container ng-star-inserted']//div[contains(@style,'justify-content: center')]"                
+                  
+  IconTop:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-select-button[@label='Vertical']//div[@aria-labelledby='Top']"  
+
+  IconCanvasTop:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//div[@class='input-container ng-star-inserted']//div[contains(@style,'flex-start')]"
+
+  IconMiddle:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-select-button[@label='Vertical']//div[@aria-labelledby='Middle']"  
+
+  IconCanvasMiddle:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//div[@class='input-container ng-star-inserted']//div[contains(@style,'align-items: center')]"                  
+
+  IconBottom:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-select-button[@label='Vertical']//div[@aria-labelledby='Bottom']"  
+
+  IconCanvasBottom:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//div[@class='input-container ng-star-inserted']//div[contains(@style,'align-items: flex-end')]"                  
+
+   #Avatar                               
+  Caption:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text//div[text()=' Caption']/../..//input[@type='text']"
+
+  FallbackText:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text//div[text()=' Fallback Text']/../..//input[@type='text']"     
+
+  AvatarCaptionCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//grid-field-avatar//div[@class='avatar-caption']"  
+
+  AvatarFallbackTextCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//grid-field-avatar//div[@class='p-avatar p-component p-avatar-circle']"   
+
+  AvatarToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-element avatar-label']"  
+
+  ModalCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//app-grid-field//grid-field-modal//button[@class='animate f-button-custom']"  
+
+  ModalPopHeader:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='dialog']//div[@class='header-content ng-star-inserted']"      
+
+  PAGES:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Pages ']"  
+
+  Add:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()='Add']" 
+
+  ModalPageFieldName:
+    typeOfLocator: xpath
+    attributeValue: "//button[@popoverclass='config-popover']/../../../..//div[text()=' Field Name']/../..//input[@type='text']"   
+
+  ModalPageTitle:
+    typeOfLocator: xpath
+    attributeValue: "//button[@popoverclass='config-popover']/../../../..//div[text()=' Title']/../..//input[@type='text']"    
+
+  #Label&Vlaues
+
+  ValuesLabel:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Label']/../..//input[@type='text']"   
+
+  Upload_Input_Label:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Label']/../..//input" 
+
+  MaximumValue:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Max Length']/../..//input[contains(@class,'p-inputtext p-component p-element ')]" 
+
+  MinimumValue:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Min Length']/../..//input[contains(@class,'p-inputtext p-component p-element ')]"  
+
+  CustomMsg:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Custom')]/../..//input[@type='text']" 
+
+  ToastMsgCustom:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Message']/../..//input[@type='text']" 
+
+  CheckBoxRequired:
+    typeOfLocator: xpath
+    attributeValue: "//*[normalize-space(text())='Always be checked']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']"   
+
+  NumMaxValue:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Max Value']/../..//input[contains(@class,'p-inputtext p-component p-element')]" 
+
+  NumMinValue:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Min Value']/../..//input[contains(@class,'p-inputtext p-component p-element')]"     
+      
+
+
+
+    
+    
+     
+          
+
+
+
+

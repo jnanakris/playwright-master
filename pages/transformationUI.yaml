@@ -1,0 +1,87 @@
+pageName: transformationUI
+
+locator:
+  APIConfigurationTitle :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='API Configuration']"
+
+  inputMenu :
+    typeOfLocator: xpath
+    attributeValue: "//as-split-area[@id='canvas']//div[contains(@id,'input-dmcontainer')]//i"
+
+  expandAllButton :
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menu']//span[text()=' Expand All ']"
+
+  inputConfiguration :
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='INPUT']/../..//li//span[normalize-space(text())='expectedText']/../..//*[local-name()='svg'])[2]"
+
+  outputConfiguration :
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='OUTPUT']/../..//li//span[normalize-space(text())='expectedText']/..)[1]"
+
+  closeButton :
+    typeOfLocator: xpath
+    attributeValue:  "//span[text()='Save and Close']"
+
+  executeButton :
+    typeOfLocator: xpath
+    attributeValue: "//app-btn-primary[@label='Execute']//button"
+
+  outputUploadButton:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='OUTPUT']/..//em"
+
+  apiSetupCategoryDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//finlevit-lib-select[@formcontrolname='category']//p-dropdown//span)[1]"
+
+  apiSetupProviderDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//finlevit-lib-select[@formcontrolname='thirdPartyName']//p-dropdown//span)[1]"
+
+  apiSetupServiceDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//finlevit-lib-select[@formcontrolname='serviceName']//p-dropdown//span)[1]"
+
+  apiSetupOperationDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//finlevit-lib-select[@formcontrolname='serviceOperation']//p-dropdown//span)[1]"
+
+  apiSetupDoneButton:
+    typeOfLocator: xpath
+    attributeValue: "//footer//span[text()='Done']"
+
+  apiSetupDropdownOptions:
+    typeOfLocator: xpath
+    attributeValue: "//ul[@role='listbox']//p-dropdownitem"
+  
+  frameURL:
+    typeOfLocator: xpath
+    attributeValue: "/transformations-dev.demo.finlevit.io*/"
+
+  inputUploadButton:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='INPUT']/..//em"
+
+  responseSetupInput:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-lib-multi-select[@optionlabel='name']//p-multiselect"
+
+  pathOutputConfiguration :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='OUTPUT']/../..//span[text()='PATH']/../../..//li//span[normalize-space(text())='expectedText']/.."
+
+  applicationInputConfiguration :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='INPUT']/../..//span[text()='Application']"
+
+  SavedSuccessfully:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Mappings save successfully')]"
+
+
+
+
+  

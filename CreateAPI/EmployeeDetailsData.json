@@ -1,0 +1,260 @@
+[
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp00001",
+        "Salary": 1234567,
+        "Email": "qa@tabnergc.com",
+        "Pin": "makula",
+        "FirstName": "Manikanta",
+        "Phone": "1234567895",
+        "CountryofResidence": "IN",
+        "LastName": "Akula",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "369-52-4128"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp00002",
+        "Salary": 5000000,
+        "Email": "qa@tabnergc.com",
+        "Pin": "marul",
+        "FirstName": "Mary",
+        "Phone": "1225553333",
+        "CountryofResidence": "CY",
+        "LastName": "Arul",
+        "Gender": "Female",
+        "EmployerName": "Tabner Inc",
+        "SSN": "369-52-4129"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp11235",
+        "Salary": 500000,
+        "IsUSCitizen": false,
+        "Email": "qa@tabnergc.com",
+        "Pin": "pchadalawada",
+        "FirstName": "Pradeep",
+        "Phone": "704-988-1986",
+        "CountryofResidence": "US",
+        "LastName": "Chadalawada",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "369-52-4127"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp11238",
+        "Salary": 3000000,
+        "IsUSCitizen": false,
+        "Email": "qa@tabnergc.com",
+        "Pin": "msrinivasan",
+        "FirstName": "Mohan",
+        "Phone": "704-988-1989",
+        "CountryofResidence": "IN",
+        "LastName": "Srinivasan",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "368-52-4129"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp00003",
+        "Salary": 500000,
+        "Email": "qa@tabnergc.com",
+        "Pin": "rajesh",
+        "FirstName": "Rajesh",
+        "Phone": "7049882000",
+        "CountryofResidence": "US",
+        "LastName": "Navduri",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "369-52-4126"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp00004",
+        "Salary": 765765776,
+        "Email": "qa@tabnergc.com",
+        "Pin": "adhar",
+        "FirstName": "Abhimanyu",
+        "Phone": "78457890543",
+        "CountryofResidence": "US",
+        "LastName": "Dhar",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "369-52-4126"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp00005",
+        "Salary": 5756757,
+        "Email": "qa@tabnergc.com",
+        "Pin": "mross",
+        "FirstName": "mike",
+        "Phone": "8976904567",
+        "CountryofResidence": "US",
+        "LastName": "ross",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "369-52-5675"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp00006",
+        "Salary": 4334333,
+        "Email": "qa@tabnergc.com",
+        "Pin": "sdale",
+        "FirstName": "Scott",
+        "Phone": "77292782827",
+        "CountryofResidence": "US",
+        "LastName": "Dale",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "234-52-4126"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+     {
+      "EmployeeDetails": {
+        "EmployerID": "emp00007",
+        "Salary": 55554443,
+        "Email": "qa@tabnergc.com",
+        "Pin": "agreen",
+        "FirstName": "Avi",
+        "Phone": "7289373536",
+        "CountryofResidence": "US",
+        "LastName": "Green",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "888-52-4126"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+    
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp00008",
+        "Salary": 56665554,
+        "Email": "qa@tabnergc.com",
+        "Pin": "thanks",
+        "FirstName": "Tom",
+        "Phone": "9890876543",
+        "CountryofResidence": "US",
+        "LastName": "Hanks",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "789-52-4126"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp0010",
+        "Salary": 56665554,
+        "Email": "qa@tabnergc.com",
+        "Pin": "asong",
+        "FirstName": "Arthur",
+        "Phone": "9999991119",
+        "CountryofResidence": "AL",
+        "LastName": "Song",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "789-52-4126"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    },
+
+    {
+      "EmployeeDetails": {
+        "EmployerID": "emp0011",
+        "Salary": 56665554,
+        "Email": "qa@tabnergc.com",
+        "Pin": "ayoung",
+        "FirstName": "Andy",
+        "Phone": "8967459809",
+        "CountryofResidence": "AT",
+        "LastName": "Young",
+        "Gender": "Male",
+        "EmployerName": "Tabner Inc",
+        "SSN": "789-52-8970"
+      },
+      "AddressDetails": {
+        "Locality": "Charlotte",
+        "State": "NC",
+        "Zipcode": "28269",
+        "Line1": "Charlotte"
+      }
+    }
+
+  ]

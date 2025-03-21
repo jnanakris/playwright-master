@@ -1,0 +1,30 @@
+{
+  "AppName": "CS56_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS56.V1",
+  "Application_Name": "CS56_20230819024921",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "https://ui-fp.dev.konfig.io/#/64a6697cac4d50557a16c587",
+  "txNumber": "A1353_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Save,",
+  "Task2": "Verify",
+  "Task2_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FrontOffice_Widgets": [
+    "Pin",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "ChildScript72",
+    "BO Pin"
+  ],
+  "Pin": "IICDS",
+  "First Name": "LROAYNU",
+  "Last Name": "WHTQJPE",
+  "Email": "zavqz@test.com",
+  "Phone Number": 1964928435,
+  "Address": 37327
+}

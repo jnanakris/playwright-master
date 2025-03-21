@@ -1,0 +1,24 @@
+{
+  "AppName": "CS48_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS48.1",
+  "txNumber": "A1291_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Andy Young ",
+  "Application_Name": "CS48_App_20230619011055",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "Users from FO",
+    "Submit",
+    "FO_Country"
+  ],
+  "BackOffice_Widgets": [
+    "Users from BO",
+    "BO_Country"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "http://ui-fp.intg.konfig.io/#/649004f843672f74db20538d"
+}

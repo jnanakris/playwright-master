@@ -1,0 +1,274 @@
+pageName: payload
+
+locator:
+  FirstName:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'First Name')]/parent::div/following-sibling::div//input"
+
+  LastName:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Last Name')]/parent::div/following-sibling::div//input"
+
+  Submit_btn:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Submit')]"
+
+  Pagelevel_alert_messgae:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='alert']"
+
+  FirstName_field_require_error:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'First Name')]/parent::div/parent::div/following-sibling::div//small"
+
+  LastName_field_require_error:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Last Name')]/parent::div/parent::div/following-sibling::div//small"
+
+  DropdownValues:
+    typeOfLocator: xpath
+    attributeValue: "//ul[@role='listbox']//li"
+
+  countryDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),'Country')]/parent::div/../..//div[@aria-label='dropdown trigger'])[1]"
+
+  useridDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),'userid')]/parent::div/following-sibling::div//span)[1]"
+
+  tablePagination:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(@id,'table')]//div[@class='-pagination table-footer']//div)[2]"
+
+  payload_field:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'widgetName')]"
+
+  SSN:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'SSN / ITIN')]/parent::div/following-sibling::div//input"
+
+  Email:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Email')]/parent::div/following-sibling::div//input"
+
+  PhoneNumber:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Phone Number')]/parent::div/following-sibling::div//input"
+
+  CurrentSalary:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Current Salary')]/../..//input"
+
+  DOB:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Date')]/parent::div/following-sibling::div//input"
+
+  Male:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),'Gender')]/parent::div/following-sibling::div//div[@class='p-radiobutton-box'])[1]"
+
+  Female:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),'Gender')]/parent::div/following-sibling::div//div[@class='p-radiobutton-box'])[2]"
+
+  IsUsCitizen:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Is US Citizen')]"
+
+  UI:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Area of Expertise')]/../..//div//label[text()='UI']/..//span[contains(@class,'checkbox')]"
+
+  UX:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Area of Expertise')]/../..//div//label[text()='UX']/..//span[contains(@class,'checkbox')]"
+
+  AddressDetails:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Address Details']"
+
+  Address:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Address']/../..//input"
+
+  CountryOfResidence:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),'Country')]/../..//p-dropdown//div/following-sibling::div)[1]"
+
+  TodayDate:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(@class,'p-datepicker-today')]//span"
+
+  Userid:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Userid')]/parent::div/following-sibling::div//input"
+ 
+
+  SelectFirstAddress:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='pac-container pac-logo hdpi']/div[1]"   
+
+  BA:
+    typeOfLocator: xpath
+    attributeValue: "(//*[contains(text(),'Area')]/../../../..//div[@class='p-checkbox-box'])[2]"       
+
+
+    #DataPopulation
+
+  Pin:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' Pin']/../../../..//span)[1]"   
+
+  States:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' States']/parent::div/../..//div[@aria-label='dropdown trigger'])[1]"   
+
+  TextInput :
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/parent::div/following-sibling::div//input"
+
+  RadioButton :
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../..//label" 
+
+  Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../..//span[contains(@class,'p-dropdown-label')]"
+
+  Button:
+    typeOfLocator: xpath
+    attributeValue: "//span[normalize-space(text())='elementName']"
+    
+  Advanced table first row edit icon:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='f-table']//div[@class='f-tr'])[2]//i[contains(@class,'edit-icon')]"
+
+  Advanced table first row delete icon:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='f-table']//div[@class='f-tr'])[2]//i[contains(@class,'delete-icon')]"
+
+  Advanced table first row save icon:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='f-table']//div[@class='f-tr'])[2]//i[contains(@class,'save-icon')]"
+
+  Advanced table add new row icon:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-icon-preview//i[contains(@class,'pi-plus')]"
+
+  Advanced table header:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='f-table']//div[@class='f-tr'])[1]//div[contains(@class,'column-header-name')]"
+
+  Advanced table first row columns:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='f-table']//div[@class='f-tr'])[2]//input"
+
+  Delete Confirmation Yes button:
+    typeOfLocator: xpath
+    attributeValue: "//button[contains(@class,'p-confirm-dialog-accept')]//span[text()='Yes']"
+
+  Advanced table first row first column:
+    typeOfLocator: xpath
+    attributeValue: "((//div[@class='f-table']//div[@class='f-tr'])[2]//div[@class='pl-1 ng-star-inserted'])[1]"
+
+  Advanced table all rows:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-table']//div[@class='f-tr']"
+
+  Advanced table data count:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='table-results-counter ng-star-inserted']"
+
+  RadioButtonPartialText :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'elementName')]/../..//label" 
+
+  TextInputPartialText :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'elementName')]/../..//input"
+
+  DropdownPartialText:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'elementName')]/../..//span[contains(@class,'p-dropdown-label')]"
+
+  Date of Application:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Date of Application')]/parent::div/following-sibling::div//input"
+
+  TextArea :
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../..//textarea"
+
+  Date :
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../..//input"
+
+  Checkbox :
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='elementName']/../..//label" 
+    
+  NotaValidValue:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'error-container top')]//small"  
+
+  AdvanceTableDropDownUniqueId:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Select']"  
+
+  AdvanceTableRadiGroupMale:
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='Male']" 
+
+  AdvanceTableSalary:
+    typeOfLocator: xpath
+    attributeValue: "//input[@inputmode='decimal']" 
+
+  AdvanceTableCheckbox:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-checkbox-box']"      
+
+  AdvanceTableFullName:
+    typeOfLocator: xpath
+    attributeValue: "(//div//input[@type='text'])[2]" 
+
+  AdvanceTableEmail:
+    typeOfLocator: xpath
+    attributeValue: "(//div//input[@type='text'])[4]"  
+
+  AdvanceTableEmailVAlidation:
+    typeOfLocator: xpath
+    attributeValue: "//small[text()='Email is required']"  
+
+  AdvanceTableDOB:
+    typeOfLocator: xpath
+    attributeValue: "//p-calendar//input[@type='text']" 
+
+  Number:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//finlevit-number//div[contains(text(),'Number')]" 
+
+  Last Name:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text//div[contains(text(),'Last Name')]"    
+
+  Numberfield:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//finlevit-number//p-inputnumber[@class='p-element p-inputwrapper p-inputtext p-inputtext-custom ng-pristine ng-valid ng-touched']"
+    
+  SsnDefault:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' SSN/ITIN']/../..//input[contains(@class,'p-inputtext p-component')]"
+
+   
+                                 
+  
+
+
+
+
+
+
+
+    

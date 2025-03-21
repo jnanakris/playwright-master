@@ -1,0 +1,51 @@
+pageName: Version
+
+locator:
+  VersionControl:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' published_with_changes ']"
+
+  VerifyPublish:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Verify & Publish']"
+
+  VersionDescription:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Description']/../..//input"
+
+  VersionNo:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Version']/../..//input"
+
+  SaveVersion:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"
+
+  Success:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Success')]"
+
+  Lock:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Lock']"
+
+  Unlock:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Unlock']"     
+
+  Pagelevel_alert_message:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='alert']"
+
+  Locked by User:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'Locked By')]" 
+
+  Pagelevel_alert_close:
+    typeOfLocator: xpath
+    attributeValue: "//button[@aria-label='Close']"
+
+  publishedSuccessfully:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'published successfully')]"
+ 

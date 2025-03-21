@@ -1,0 +1,30 @@
+{
+  "AppName": "App",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Task1": "Review Transaction",
+  "Task1_Actions": "Accept,Reject,",
+  "AssignedTo": " Mike Ross ",
+  "Task2": "Secondary Review",
+  "Task2_Actions": "Accept,",
+  "Application_Name": "App20230424021355",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Personal Information",
+    "First Name",
+    "Last Name",
+    "Number",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Personal Information",
+    "Father Name",
+    "Mother Name",
+    "Gender"
+  ],
+  "AppManager": "Mike Ross",
+  "Operations": "Mike Ross",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "http://ui-fp.qa.konfig.io/#/64461e2a0f890c5abca7398e",
+  "txNumber": "A33_000000003"
+}

@@ -1,0 +1,100 @@
+pageName: Page
+
+locator:
+
+  Preview:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' play_circle ']"
+
+  PreviewTooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Preview']"  
+
+  Design:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' edit_note ']" 
+
+  DesignTooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Design']" 
+  
+  Status:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' rule ']" 
+
+  StatusTooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Status']"    
+
+  Roles:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' manage_accounts ']"  
+
+  RolesTooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Roles']"  
+
+  VersionManagement:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' published_with_changes ']"  
+
+  VersionTooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Version Management']"    
+
+  Settings:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' tune ']"   
+
+  SettingsTooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Settings']"      
+
+  Logout:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' logout ']"     
+
+  LogoutTooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Logout']"     
+    
+  Admin:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='avatar s-28']"     
+
+  AdminTooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Admin ']"      
+
+  FO:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Front Office']"   
+
+  AppManager:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Application Manager ']"   
+
+  Preview_href_link:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' play_circle ']/parent::finlevit-icon-preview/parent::a"
+
+  BO:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Back Office']" 
+  
+  Save:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"
+
+  FiledPermissions:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Field Permissions']"
+
+  PageLimit:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(@name,'pagelimit')]//span[contains(@class,'pi-chevron-down')]"
+
+  Title:
+    typeOfLocator: xpath
+    attributeValue: "//header//div[@class='title']"  
+  

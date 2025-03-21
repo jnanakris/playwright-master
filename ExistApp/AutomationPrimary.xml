@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<SourceID>AutomationPrimary</SourceID>
+	<ProcessType>APP001</ProcessType>
+	<RequestType>APP002</RequestType>
+	<TransactionID>APp1-1001</TransactionID>
+	<PersonalInfo>
+		<Pin>string</Pin>
+		<FirstName>string</FirstName>
+		<LastName>string</LastName>
+		<Gender>string</Gender>
+		<Phone>string</Phone>
+		<Salary>1</Salary>
+		<IsUSCitizen>true</IsUSCitizen>
+		<CountryofResidence>string</CountryofResidence>
+		<SSN>string</SSN>
+		<ITIN>string</ITIN>
+		<Email>string</Email>	
+	</PersonalInfo>
+	<AddressDetails>
+		<Line1>string</Line1>
+		<Locality>string</Locality>
+		<State>string</State>
+		<Zipcode>string</Zipcode>
+	</AddressDetails>

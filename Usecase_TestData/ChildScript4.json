@@ -1,0 +1,29 @@
+{
+  "AppName": "CS4_App_",
+  "Application_Name": "CS4_App_20230503101436",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Users",
+    "Get Emp Details",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Get Emp Details",
+    "Employer Information",
+    "Employer ID",
+    "Employer Name",
+    "Job Type",
+    "Country",
+    "State"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/64526c5312352b06f8ef923a",
+  "txNumber": "A126_000000001"
+}

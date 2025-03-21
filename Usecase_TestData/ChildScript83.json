@@ -1,0 +1,33 @@
+{
+  "AppName": "CS83_App_",
+  "Application_Name": "CS83_App_20240919012755",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "App_Manager": "Scott Dale",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "FO_Agent": "Mike Ross,Arthur Song,Avi Green",
+  "FrontOffice_Widgets": [
+    "Employees",
+    "Submit"
+  ],
+  "LatestVersionNO": "1",
+  "AppManager": "Mike Ross,Andy Young,Andy Young",
+  "AuthName": "Stripe_BasicAuth",
+  "AuthDescription": "Auth created using Automation script",
+  "UserName": "sk_test_51PTpJeDEvZ7TZk4i6YA0OpUffSUlqRYvCwAossu1u6NW1iikIPZFJZGyZjtFrvtoLlT7RNMa823jiulnhEfk2vkN00X6EePhUM",
+  "Password": " ",
+  "OperationName": "accountValidation",
+  "DatalistName": "Account Validation",
+  "DocumentSourceName": "Tririga_source",
+  "DocumentDestinationName": "Tririga_destination",
+  "FileName": "CS83_ACH_Payment_1",
+  "FileType": "Flat File",
+  "FileNameinFileSetup": "CS83_ACH20240919012704",
+  "FileNameinFileSetupPrefix": "CS83_ACH",
+  "Frequency": "Daily",
+  "PreferredStartTime": "11:00 PM",
+  "MailBody": "Please find the attached ACH file with below details @First",
+  "MailSub": "ACH File",
+  "To": "qa@tabnergc.com",
+  "FileNamePrefix": "CS83_ACH"
+}

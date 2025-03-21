@@ -1,0 +1,208 @@
+pageName: BusinessRules
+
+locator:
+  businessRulesMenu :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Business Rules']"
+
+  businessRulesTitle :
+    typeOfLocator: xpath
+    attributeValue: "//header//div[text()='Business Rules']"
+
+  addRuleButton :
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Add Rule']//button"
+
+  nameInputBox :
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Name ']/..//input"
+
+  save :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']/../..//button"
+
+  businessRuleExpandArrow:
+    typeOfLocator: xpath
+    attributeValue: "//button[contains(@class,'toggle-icon-btn-grey')]//i"
+
+  Expression:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='expression']"
+  
+  Compare: 
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Compare')]"
+  
+  Assign:
+    typeOfLocator: xpath
+    attributeValue: "//p[@class='tool-title' and text()='Assign']"
+
+  Equality:
+    typeOfLocator: xpath
+    attributeValue: "//p[@class='tool-title' and text()='Equality']"
+
+  GreaterThan:
+    typeOfLocator: xpath
+    attributeValue: "//p[@class='tool-title' and text()='Greater Than']"
+
+  LessThan:
+    typeOfLocator: xpath
+    attributeValue: "//p[@class='tool-title' and text()='Less Than']"
+
+  GTE:
+    typeOfLocator: xpath
+    attributeValue: "//p[@class='tool-title' and text()='GTE']"
+  
+  LTE:
+    typeOfLocator: xpath
+    attributeValue: "//p[@class='tool-title' and text()='LTE']"
+
+  Arithemetic: 
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Arithmetic')]"
+
+  Add:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Add')]"
+
+  Subtract:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Subtract')]"
+
+  Multiply:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Multiply')]"
+
+  Divide:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Divide')]"
+
+  Ceiling:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Ceiling')]"
+
+  Floor:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Floor')]"
+
+  Round:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Round')]"
+
+  Min:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Min')]"
+
+  Max:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Max')]"
+
+  Power:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Power')]"
+
+  SquareRoot:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Square Root')]"
+
+  Absolute:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Absolute')]"
+
+  Conditions: 
+      typeOfLocator: xpath
+      attributeValue: "//td[contains(text(),'Conditions')]"
+
+  If:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'If')]"
+
+  ElseIf:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Else If')]"
+
+  Else:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Else')]"
+
+  And:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'And')]"
+
+  Or:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Or')]"
+
+  Not:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Not')]"
+
+  String:
+      typeOfLocator: xpath
+      attributeValue: "//td[contains(text(),'String')]"
+
+  Contains:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Contains')]"
+
+  StartsWith:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Starts With')]"
+
+  EndsWith:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Ends With')]"
+
+  IsEmpty:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Is Empty')]"
+
+  Trim:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Trim')]"
+
+  Date:
+      typeOfLocator: xpath
+      attributeValue: "//td[contains(text(),'Date')]"
+
+  AddMonths:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Add Months')]"
+
+  AddDays:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Add Days')]"
+
+  AddYears:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Add Years')]"
+
+  Operands:
+      typeOfLocator: xpath
+      attributeValue: "//td[contains(text(),'Operands')]"
+
+  StringConstant:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'String Constant')]"
+
+  NumberConstant:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'NumberConstant')]"
+
+  BooleanConstant:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Boolean Constant')]"
+
+  DateConstant:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Date Constant')]"
+
+  PayloadFields:
+    typeOfLocator: xpath
+    attributeValue: "//td[contains(text(),'Payload Fields')]"
+
+  IfContainer:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'IF')]/..//div[@class='condition-expression']"
+
+  

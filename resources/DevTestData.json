@@ -1,0 +1,57 @@
+{
+  "Finlevit_admin": "https://admin.dev.tabner.konfigai.us/auth",
+  "Finlevit_workflow": "https://workflow.dev.tabner.konfigai.us/auth",
+  "Access_Token": "https://api.dev.tabner.konfigai.us/ss/access-token",
+  "Origin": "https://admin.dev.tabner.konfigai.us",
+  "Kafka": "https://api.dev.tabner.konfigai.us/account/messagingqueue/sendMessage?queuename=",
+  "ip-onPrem-dev": "10.10.5.65",
+  "ip-onPrem-sit": "10.10.5.225",
+  "ip-onPrem-qa": "10.10.5.188",
+  "ip-onPrem-stg": "10.10.5.238",
+  "ip-onPrem-prod": "10.10.5.136",
+  "ip-cloud-dev": "kafka-0.kafka-headless.kafka.svc.cluster.local",
+  "ip-cloud-stg": "kafka-0.kafka-headless.kafka.svc.cluster.local",
+  "onPrem-port": 9094,
+  "cloud-port": 9092,
+  "topic": "topic-dev-1",
+  "Admin": "admin",
+  "GroupName": "Automation Scripts March",
+  "GroupDescription": "Group holds app created using Playwright-Automation framework",
+  "GroupAdmins": [
+    "Mike Ross",
+    "Jonh Doe",
+    "Avi Green"
+  ],
+  "AppName": "App",
+  "AppDescription": "App created using Automation script",
+  "AppAdmins": [
+    "Mike Ross",
+    "Jonh Doe",
+    "Avi Green"
+  ],
+  "AppManager": [
+    "Mike Ross",
+    "Jonh Doe",
+    "Avi Green"
+  ],
+  "Operations": [
+    "Mike Ross",
+    "Jonh Doe",
+    "Avi Green"
+  ],
+  "FO_Agent": [
+    "Mike Ross",
+    "Jonh Doe",
+    "Avi Green"
+  ],
+  "FrontOffice_Widgets": [
+    "CreateRecord"
+  ],
+  "BackOffice_Widgets": [
+    "BO Pin"
+  ],
+  "moon-GroupName": "Konfig Test Scripts20231012022419",
+  "MongoDB-URI-onPrem": "mongodb://konfigdevread:gbdJHWypk59h9Tp@10.10.5.169:27017/konfig-dev",
+  "MongoDB-URI-cloud": "mongodb+srv://konfigdevuser:EhtsqAfH6QQ4t96@konfigcloud.otmnd.mongodb.net/konfig-dev",
+  "LoginType": "OKTA"
+}

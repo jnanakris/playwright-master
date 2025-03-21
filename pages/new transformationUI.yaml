@@ -1,0 +1,110 @@
+pageName: transformation
+
+locator:
+  addRuleButton:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Add Rule']//button"
+
+  Name:
+    typeOfLocator: xpath
+    attributeValue: "//Input[@placeholder='Enter Name*']"
+
+  Rule body:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='placeholder-info' and contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'drop fields')])[last()]"
+
+  Operands:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Operands ']"
+
+  Compare:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Compare ']"
+
+  Assign:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Assign']/../..//div"
+
+  Source Fields:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Source Fields']/../..//div"
+
+  Destination Fields:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Destination Fields']/../..//div"
+
+  Destination Fields drop:
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='operator-title']/preceding-sibling::div"
+
+  Source Fields drop:
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='operator-title']/following-sibling::div"
+
+  API:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='API']"
+
+  Request:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Request']"
+
+  options:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menuitem']//div[normalize-space(text())='elementName']"
+
+  Application:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Application' or normalize-space(text())='application']"
+
+  Parameters:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Parameters']"
+
+  System_Fields:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='System_Fields']"
+
+  Single_Screen_Payload:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Single_Screen_Payload']"
+
+  Back_Office_Fields:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Back_Office_Fields']"
+
+  Single_Screen_Container:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/ancestor::div[contains(@class,'dk-overlay-connected')]/following-sibling::div//i"
+
+  Save:
+    typeOfLocator: xpath
+    attributeValue: "//app-transformation//app-icon-btn[@label='Save']"   
+
+  Close:
+    typeOfLocator: xpath
+    attributeValue: "//app-btn-primary[@label='Close']"   
+
+  Array:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Array']"
+  
+  array element of root:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='array element of root']"
+
+  Success:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Success') and contains(@class,'toast-title')]" 
+
+  File:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='File' or normalize-space(text())='file']"
+
+  root:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='root']"
+
+  SuccessResponse :
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Success Response']"

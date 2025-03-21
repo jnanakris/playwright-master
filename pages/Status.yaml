@@ -1,0 +1,28 @@
+pageName: Status
+
+locator:
+
+ Status:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' rule ']"
+
+ AddStatus:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Status']/../..//button"
+
+ StatusName:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Name']/../..//input[@type='text']"    
+
+ StatusSave:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']" 
+
+ EndTaskCheckbox:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Is End Task']/../..//div[@class='p-checkbox-box']"         
+
+ 
+
+
+

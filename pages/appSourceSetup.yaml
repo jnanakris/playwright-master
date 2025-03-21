@@ -1,0 +1,167 @@
+pageName: appSourceSetup
+
+locator:
+  fileSearch :
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search source by name']"
+
+  addSource :
+    typeOfLocator: xpath
+    attributeValue: "//*[@label=' Add Source']//span[normalize-space(text())='Add Source']"
+
+  dataListSourceType :
+    typeOfLocator: xpath
+    attributeValue: "//label[@class='radio-option-label' and text()=' Data List']"
+
+  fileSourceType :
+    typeOfLocator: xpath
+    attributeValue: "//label[@class='radio-option-label' and text()=' File']"
+
+  sourceName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Source Name']//input"
+
+  group :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='groupId']//span[contains(@class,'p-dropdown-label')]"
+
+  dataResource :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='dataResourceId']//span[contains(@class,'p-dropdown-label')]"
+
+  dataList :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='dataListId']//span[contains(@class,'p-dropdown-label')]"
+
+  primarySourceType :
+    typeOfLocator: xpath
+    attributeValue: "(//*[@name='isPrimary']//label)[1]"
+
+  secondarySourceType :
+    typeOfLocator: xpath
+    attributeValue: "(//*[@name='isPrimary']//label)[2]"
+
+  cronFrequency :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='frequency']//label[text()=' Cron']"
+
+  cronExpression :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='cronExpression']//input"
+
+  requestParameters :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Request Parameters']"
+
+  requestParametersAddicon :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Request Parameters']/../../../../..//finlevit-icon-preview//i[contains(@class,'left pi pi-plus primeng')]"
+ 
+  requestParametersName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@optionlabel='displayName']//input"
+
+  requestParameterDatatype :
+    typeOfLocator: xpath
+    attributeValue: "//*[@placeholder='Data Type']//span[contains(@class,'p-dropdown-label')]"
+
+  requestParametersValue :
+    typeOfLocator: xpath
+    attributeValue: "//*[@placeholder='Enter value']//input"
+
+  requestParametersOption :
+    typeOfLocator: xpath
+    attributeValue: "//*[@placeholder='Value Type']//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  next :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Next']"
+
+  applicationIdentifiers :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='applicationIdentifiers']//div[contains(@class,'p-multiselect-label ')]"
+
+  transactionIdentifiers :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='transactionIdentifiers']//div[contains(@class,'p-multiselect-label ')]"
+
+  save :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"
+
+  savedSuccessfully:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Successfully')]"
+
+  1Q1F :
+    typeOfLocator: xpath
+    attributeValue: "(//*[@name='queueIdentifier']//label)[1]"
+
+  1QMF :
+    typeOfLocator: xpath
+    attributeValue: "(//*[@name='queueIdentifier']//label)[2]"
+
+  queueName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='queue']//span[contains(@class,'p-dropdown-label')]"
+
+  fileType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='fileType']//span[contains(@class,'p-dropdown-label')]"
+
+  payloadKey :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='payloadKey']//span[contains(@class,'p-dropdown-label')]"
+
+  transactionalMode :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='appMode']//label[text()=' Transactional']"
+
+  fileSeparator :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='fileSeparator']//input"
+
+  s3FolderType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='folderType']//label[text()=' S3']"
+
+  fileFolder :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='folderType']//label[text()=' File Folder']"
+
+  sourceFolderDropdown :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='sourceFolder']//span[contains(@class,'p-dropdown-label')]"
+
+  processedFolderDropdown :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='processedFolder']//span[contains(@class,'p-dropdown-label')]"
+
+  sourceFolderInput :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='sourceFolder']//input"
+
+  processedFolderInput :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='processedFolder']//input"
+
+  batchMode :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='appMode']//label[text()=' Batch']"
+
+  options:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menuitem' and normalize-space(text())='elementName']"
+
+  requestParametersFormat :
+    typeOfLocator: xpath
+    attributeValue: "//*[@placeholder='Format']//p-dropdown//span[contains(@class,'p-dropdown-label p-inputtext p-placeholder')]"
+
+  VAIT :
+    typeOfLocator: xpath
+    attributeValue: "//label[text()=' Valid and Invalid Transactions']"  
+    
+  VOT :
+    typeOfLocator: xpath
+    attributeValue: "//label[text()=' Valid only Transactions']"  
+    

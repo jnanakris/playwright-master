@@ -1,0 +1,181 @@
+pageName: onLoadTrigger
+
+locator:
+  availableDataSources :
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-title ng-star-inserted']"
+
+  dataSources :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Data Sources']"
+
+  Clone Data Source :
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Clone Data Source']//button[2]"
+
+  cloneButtoninModal :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Clone']"
+
+  onLoadTriggerTitle :
+    typeOfLocator: xpath
+    attributeValue: "(//*[@headertitle='Onload Triggers']//div)[1]"
+
+  addOnloadTrigger :
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Add an Onload Trigger']//button"
+
+  triggerName :
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text[@name='name']//input"
+
+  triggerDescription :
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text[@name='description']//input"
+
+  triggerDataSource :
+    typeOfLocator: xpath
+    attributeValue: "//*[@prefixtext='Data Source']//div[@role='button']/preceding-sibling::span"
+
+  triggerDataList :
+    typeOfLocator: xpath
+    attributeValue: "//*[@prefixtext='Data List']//div[@role='button']/preceding-sibling::span"
+
+  optionsMappingPlusIcon :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//button[@class='f-button-secondary animate f-button-sm']//i"
+
+  field :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//*[@label='Options Mapping']//*[text()=' Field ']/..//input"
+
+  label :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//*[@label='Options Mapping']//*[translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ ','abcdefghijklmnopqrstuvwxyz') = 'label']/..//input"
+
+  value :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//*[@label='Options Mapping']//input[@placeholder='Option Value']"
+
+  saveOnloadTrigger :
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Save']//button"
+
+  configureOptionType :
+    typeOfLocator: xpath
+    attributeValue: "//div[@aria-label='Configure']//span"
+
+  triggerExpandArrow:
+    typeOfLocator: xpath
+    attributeValue: "//button[contains(@class,'toggle-icon-btn-grey')]//i"
+
+  optionsMappingoption:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menuitem' and normalize-space(text())='elementName']"
+
+  responseMappingSettingsIcon:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'elementName')]/../../../../../..//button//span[contains(text(),'Response Mapping')]/../.././..//i[contains(@class,'left pi pi-cog')]"
+
+  paramType :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/../../../../../..//span[text()='Params Config']/../../../../../..//*[text()=' Type']/..//div[@class='p-dropdown-trigger']"
+
+  paramUserid :
+    typeOfLocator: xpath
+    attributeValue: "((//*[@label='Response Mapping']/parent::div)[index]/preceding-sibling::div[@class='mb-3 ng-star-inserted']//div[text()=' Userid ']/..//span)[1]"
+    
+  emptyDataSource :
+    typeOfLocator: xpath
+    attributeValue: "//app-page-header[@headertitle='Data Sources']/..//div[text()='You dont have any Data Resources yet ']"
+    
+  search_datasources_textbox :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='search']//input"
+
+  GetByIdParameter_DataLists :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Get By Id')]/../../../..//span[contains(@class,'pill')]"
+
+  leftArrow_DataLists :
+    typeOfLocator: xpath
+    attributeValue: "//app-data-lists//i[contains(@class,'pi-arrow-left')]"
+
+  optionsMappingAlloption:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'mat-menu-panel')]//ul//li"
+
+  AddColumnoption:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menuitem']//div[text()='elementName']"
+
+  ResponsePathoption:
+    typeOfLocator: xpath
+    attributeValue: " //div[@role='menuitem']//div[text()='elementName']"
+
+  paramUniqueFieldInputBox:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/../../../../../..//span[contains(text(),'Params Config')]/../../../../../..//div[contains(text(),'uniqueField')]/..//input"
+
+  paramUniqueFieldDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/../../../../../..//span[contains(text(),'Params Config')]/../../../../../..//div[contains(text(),'uniqueField')]/..//div[contains(@role,'button')]"
+  
+  filterInputBox:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//*[text()= ' Filter ']/..//input"
+
+  filterDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='elementName']/ancestor::finlevit-panel//*[text()= ' Filter ']/..//p-dropdown//span)[1]"
+  
+  triggerTileName :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-options-button//span"
+
+  triggerTileOptions :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-options-button//i"
+
+  triggerDelete :
+    typeOfLocator: xpath
+    attributeValue: "//li[@data-test-id='Delete']//span"
+
+  deleteConfirmationModal :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Delete']"
+
+  onloadTriggerIndSave :
+    typeOfLocator: xpath
+    attributeValue: "//app-icon-btn[@label='Save']//span[text()='Save']"
+
+  defaultKey :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//*[@label='Options Mapping']//*[text()=' Default Key ']/..//input" 
+
+  defaultValue :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//*[@label='Options Mapping']//input[@placeholder='value']"    
+
+  options:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menuitem' and normalize-space(text())='elementName']"
+
+  Single_Screen_Payload:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Single_Screen_Payload']"
+
+  Back_Office_Fields:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Back_Office_Fields']"   
+
+  NewoptionsMappingoption:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../../..//div[@role='menuitem']"  
+
+  onloadTriggerMenu:
+    typeOfLocator: xpath
+    attributeValue: "//li//span[text()='Onload Triggers']"  
+ 
+  
+  

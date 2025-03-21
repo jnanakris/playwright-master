@@ -1,0 +1,23 @@
+{
+  "SourceID": "CS71_XSD_Inbound",
+  "ProcessType": "Pr020320",
+  "RequestType": "RT031710",
+  "TransactionID": "TXN031709_12",
+  "PersonalInfo": {
+    "Pin": "makula",
+    "FirstName": "Manikanta",
+    "LastName": "Akula",
+    "Gender": "Male",
+    "Email": "qa@tabnergc.com",
+    "Phone": "7372290323",
+    "Salary": 10000,
+    "IsUSCitizen": true,
+    "CountryofResidence": "India"
+  },
+  "AddressDetails": {
+    "Line1": "2204ArborVistaDr",
+    "Locality": "Charlotte",
+    "State": "NorthCarolina",
+    "Zipcode": "28262"
+  }
+}

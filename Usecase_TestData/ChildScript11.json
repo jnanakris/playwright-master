@@ -1,0 +1,33 @@
+{
+  "AppName": "CS11_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS11.11",
+  "Application_Name": "CS11_20230511011716",
+  "FO_Agent": "Mike Ross",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "2",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/645cf153c5b06570f9552dfe",
+  "txNumber": "A348_000000002",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "Task2": "Verify",
+  "Task2_Actions": "Submit,",
+  "AssignedTo": " Mike Ross ",
+  "FrontOffice_Widgets": [
+    "ChildScript5",
+    "Pin",
+    "FirstName",
+    "LastName",
+    "Email",
+    "PhoneNumber",
+    "create",
+    "Fetch"
+  ],
+  "BackOffice_Widgets": [],
+  "Pin": "AUAUA",
+  "First Name": "VTAJJSV",
+  "Last Name": "CRSPIHD",
+  "Email": "mghyt@test.com",
+  "Phone Number": 9871512352,
+  "Address": 55544
+}

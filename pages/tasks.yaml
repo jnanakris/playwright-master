@@ -1,0 +1,354 @@
+pageName: tasks
+
+locator:
+  Start:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Start']/..//img"
+
+  End:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='End']/..//img"
+
+  Task:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Task']/..//img"
+
+  BackOfficeCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//div[@id='mapping-container']"
+
+  TaskNameInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Task Name']/../..//input"
+
+  RoleDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Role']/../..//div[@class='f-input-container']"
+
+  ActionNameInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Name']/../..//input"
+
+  ActionStatus:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Status']/../..//div[@class='f-input-container']"
+
+  Save:
+    typeOfLocator: xpath
+    attributeValue: "//footer//span[text()='Save']"
+
+  WorkflowSave:
+    typeOfLocator: xpath
+    attributeValue: "//app-icon-btn//span[text()='Save']"
+
+  StartTask:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='START_TASK']//*[@anchorFor='ACTION']"
+
+  TaskNode:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='TASK']/..//*[@anchorFor='ACTION']"
+
+  TaskHeader:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='TASK']"
+
+  SuccessResponse:
+    typeOfLocator: xpath
+    attributeValue: "//mat-expansion-panel-header//div[normalize-space(text())='Success']"
+
+  FailedResponse:
+    typeOfLocator: xpath
+    attributeValue: "//*[@grouplabel='API Response']//mat-expansion-panel-header//div[normalize-space(text())='Failed']"
+
+  SuccessActionStatus:
+    typeOfLocator: xpath
+    attributeValue: "//mat-expansion-panel-header//div[normalize-space(text())='Success']/../../../../..//div[text()=' Status']/../..//div[@class='f-input-container']"
+
+  FailedActionStatus:
+    typeOfLocator: xpath
+    attributeValue: "//mat-expansion-panel-header//div[normalize-space(text())='Failed']/../../../../..//div[text()=' Status']/../..//div[@class='f-input-container']"
+
+  API Task:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='API']/..//img"
+
+  FailureTaskRole:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Role']/../..//p-dropdown"
+
+  ConfigureService:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Configure Service']/../..//button"
+
+  Response Mapping:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Response Mapping']"
+
+  ActionsAddButton:
+    typeOfLocator: xpath
+    attributeValue: "//*[@grouplabel='Actions']//i[contains(@class,'left pi pi-plus')]"
+
+  Email:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Email']/..//img"
+
+  DesignTemplate:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Design Template')]/../..//button"
+
+  EmailTo:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='to']//div[contains(@class,'ql-editor')]"
+
+  EmailSubject:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='subject']//div[contains(@class,'ql-editor')]"
+
+  Template:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='body']//div[contains(@class,'ql-editor')]"
+
+  EmailSave:
+    typeOfLocator: xpath
+    attributeValue: "//app-email-template-dialog//footer//span[text()='Save']"
+
+  MergeEdit:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='MERGE_TASK']//span[@class='option-icon']"
+
+  Merge:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Merge']"
+
+  Status:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Status']/../../..//span[text()='Select']"
+
+  TaskEdit:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Edit']"
+
+  SystemTask:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='System Task']/..//img"
+
+  SourceDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Source']/../..//div[@class='f-input-container']"
+
+  SystemresponseFailure:
+    typeOfLocator: xpath
+    attributeValue: "//*[@grouplabel='System response']//mat-expansion-panel-header//div[normalize-space(text())='Failed']"
+
+  EndEdit:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' End ']/..//span[@class='option-icon']"
+
+  EndTaskName:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Task Name']/../../../..//input[@type='text']"
+
+  SLADurationInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='SLA Duration']/../..//input"
+
+  SLADaysInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Days']/../..//input"
+
+  SLAHoursInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Hours']/../..//input"
+
+  SLAOkButton:
+    typeOfLocator: xpath
+    attributeValue: "//span[normalize-space(text())='OK']"
+
+  CommentRequired:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Comment Required']/../..//div[@class='p-checkbox-box']"
+
+  DeleteTask:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menu']//span[text()='Delete']"
+
+  DeleteSubmit:
+    typeOfLocator: xpath
+    attributeValue: "//button//span[contains(text(),'Delete')]"
+
+  EditTask:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Edit']/../..//button"
+
+  ExpandAction:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Edit']/../..//button"
+
+  ActionDelete:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' elementName ']/..//i[contains(@class,'left pi pi-trash')]/../../../..//button"
+
+  FollowupAddButton:
+    typeOfLocator: xpath
+    attributeValue: "//*[@grouplabel='Followup Tasks']//i[contains(@class,'left pi pi-plus primeng')]/../../..//span"
+
+  FollowupTaskNameInput:
+    typeOfLocator: xpath
+    attributeValue: "//app-task-followup//div[normalize-space(text())='Name']/../..//input"
+
+  FollowupRoleDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//app-task-followup//div[text()=' Role']/../..//div[@class='f-input-container']"
+
+  FollowupWaitTime:
+    typeOfLocator: xpath
+    attributeValue: "//app-task-followup//div[text()=' Wait Time']/../..//input"
+
+  FollowupFrequency:
+    typeOfLocator: xpath
+    attributeValue: "//app-task-followup//div[text()=' Frequency']/../..//input"
+
+  FollowupWhentoStart:
+    typeOfLocator: xpath
+    attributeValue: "//app-task-followup//div[text()=' When To Start']/../..//input"
+
+  FollowupSLADurationInput:
+    typeOfLocator: xpath
+    attributeValue: "//app-task-followup//div[normalize-space(text())='SLA Duration']/../..//input"
+
+  Data Source:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Data Source']//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  Data List:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Data List']//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  ReasonRequired:
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='Reason Required']"
+
+  ReasonsButton:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-button//span[text()='Reasons']"
+
+  ReasonAddButton:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Task Action Reasons ']/../..//finlevit-button//span[text()='Add']"
+
+  ReasonSaveButton:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Task Action Reasons ']/../..//finlevit-button//span[text()='Save']"
+
+  ReasonInputbox:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='actionReason']//input"
+
+  AssignNextTaskToTaskOriginator:
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='Assign Next Task To Task Originator']"  
+
+  Review Task :
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Review']/../..//span[@class='option-icon']//i" 
+
+  View Widget :
+    typeOfLocator: xpath
+    attributeValue: "//button[@role='menuitem']//span"
+
+  Resources_Response Mapping :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='inputResourceIds']//div[contains(@class,'input-placeholder')]"
+
+  Inbound:
+    typeOfLocator: xpath
+    attributeValue: "//label[text()=' Inbound']/..//div[@class='p-radiobutton-box']"
+
+  OutBound:
+    typeOfLocator: xpath
+    attributeValue: "//label[text()=' Outbound']/..//div[@class='p-radiobutton-box']"
+
+  FileName:
+    typeOfLocator: xpath
+    attributeValue: "//*[@optionlabel='name']//span[contains(@class,'p-inputtext')]"
+
+  QueueTask:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Queue Task']" 
+
+  QueueFailResponse:
+    typeOfLocator: xpath
+    attributeValue: "//*[@grouplabel='Queue Response' or @grouplabel='File Response']//mat-expansion-panel-header//div[normalize-space(text())='Failed']"  
+
+  TransformationUIHeader:
+    typeOfLocator: xpath
+    attributeValue: "(//app-transformation-config//header//span[contains(text(),'Transformations/')]/../..//div)[1]" 
+
+  Conditions Check:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Conditions Check']"      
+
+  ConditionFailedResponse:
+    typeOfLocator: xpath
+    attributeValue: "//*[@grouplabel='Conditions Check Failure Task']//mat-expansion-panel-header//div[normalize-space(text())='Failed']"
+
+  AddCondition:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Conditions']/../..//button"   
+
+  EmailInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Email']/../..//input"  
+
+  SelectFile:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' File Name']/../..//span[text()='Select file']"   
+
+  SelectQueue:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' File Name']/../..//span[text()='Select File']"      
+
+  FileTask:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='File Task']"    
+
+  Validate Task:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Validate Task']"
+
+  Transactional Mode:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='transactionalMode']//p-checkbox//div[contains(@class,'p-checkbox p-component')]"
+
+  Process all transactions:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='processAllTransactions']//p-checkbox"
+
+  Transaction Type_Both:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='transactionFilterType']//label[normalize-space(text())='Both']"
+
+  Attach a file Checkbox:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='fileAttached']//p-checkbox"
+
+  Email Task SelectFile:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' File Name']/../..//span[contains(@class,'p-dropdown-label')]"  
+  
+  SelectedFile:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' File Name']/../..//span//div[text()='fileName']" 
+
+  ProcessType_Distinct:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@formcontrolname='processType']//label[@class='radio-option-label'])[1]"
+
+  APITask_BatchTransaction:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='batchTransactionsUsed']//p-checkbox"
+
+  Chunk_Size:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='chunkSize']//input"

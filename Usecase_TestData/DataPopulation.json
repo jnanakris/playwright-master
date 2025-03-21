@@ -1,0 +1,50 @@
+{
+  "Finlevit_admin": "http://ui-fa-dev.demo.finlevit.io/#/auth",
+  "Admin": "admin",
+  "GroupAdmins": [
+    "Tom Hanks",
+    "Mike Ross",
+    "Scott Dale"
+  ],
+  "AppName": "App",
+  "Application_Name": "App20230413041556",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Finlevit_payload": "http://ui-fp.dev.finlevit.us/#/6437dd672d21694a6c8fb275",
+  "GroupName": "DataPopulation-Test",
+  "GroupDescription": "Group holds app created using Playwright-Automation framewrok",
+  "App_Manager": "Scott Dale",
+  "Operations": "Mike Ross",
+  "FO_Agent": "Manikanta Akula,Mary Arul,Pradeep Chadalawada,Mohan Srinivasan",
+  "FrontOffice_Widgets": [
+    "Personal Info",
+    "Pin",
+    "First Name",
+    "Last Name",
+    "PinNPIN",
+    "Email",
+    "Gender",
+    "Phone Number",
+    "Is US Citizen",
+    "Current Salary",
+    "Country Of Residence",
+    "States",
+    "",
+    "Address",
+    "State",
+    "Submit"
+  ],
+  "apiCount": "17",
+  "LatestVersionNO": "1",
+  "ProcessType": "PT014628",
+  "RequestType": "RT014628",
+  "MailBody": "Dear {{FirstName}} {{LastName}},Welcome to the team Team Konfig!!",
+  "MailSub": "Welcome @EmpEmail",
+  "AppManager": "Manikanta Akula,Mary Arul",
+  "MailSubSuperscript": "Email Task: @EmpPin",
+  "MailBodySuperscript": "You received this eamil as part of SuperScript automation testing for user {EmpPin",
+  "BackOffice_Widgets": [
+    "Personal Info"
+  ],
+  "txNumber": "A990_000000001"
+}

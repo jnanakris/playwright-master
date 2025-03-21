@@ -1,0 +1,30 @@
+pageName: backOffice
+
+locator: 
+  Design:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' edit_note ']"
+
+  Status:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' rule ']"
+
+  Roles:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()='  manage_accounts  ']"
+
+  Workflow Design:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' account_tree ']"
+
+  Version Control:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()='   published_with_changes   ']"
+  
+  Settings:
+   typeOfLocator: xpath
+   attributeValue: "//i[text()='  tune  ']"
+  
+  AutoAlign:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' auto_awesome ']"

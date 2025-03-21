@@ -1,0 +1,40 @@
+{
+  "Finlevit_admin": "",
+  "Admin": "admin",
+  "GroupAdmins": [
+    "Tom Hanks",
+    "Mike Ross",
+    "Scott Dale"
+  ],
+  "AppName": "CS40_ExApp_",
+  "Application_Name": "CS40_ExApp_20230619105400",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS40.3",
+  "Finlevit_payload": "",
+  "GroupName": "",
+  "GroupDescription": "Group holds app created using Playwright-Automation framewrok",
+  "App_Manager": "",
+  "Operations": "",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "Personal Information",
+    "Email",
+    "PhoneNumber",
+    "SSN/ITIN",
+    "First Name",
+    "Last Name",
+    "Submit"
+  ],
+  "apiCount": "17",
+  "LatestVersionNO": "3",
+  "ProcessType": "PT094105",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "MailSub1": "Email Task: @BO",
+  "MailBody1": "You received this email for update record which is created through automation test script for user {FirstName",
+  "MailSub2": "Email Task: @BO",
+  "MailBody2": "You received this email for delete record which is created through automation test script for user {FirstName",
+  "BackOffice_Widgets": [
+    "Personal Information"
+  ],
+  "TransactionID": ""
+}

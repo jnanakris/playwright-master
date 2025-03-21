@@ -1,0 +1,44 @@
+{
+  "Admin": "admin",
+  "GroupAdmins": [
+    "Tom Hanks",
+    "Mike Ross",
+    "Scott Dale"
+  ],
+  "AppName": "CS43_Promote_",
+  "Application_Name": "CS43_Promote_20230523010709",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS47.1",
+  "Finlevit_payload": "http://ui-fp.qa.konfig.io/#/646cf2c0933cd76e9cb9027f",
+  "App_Manager": "",
+  "Operations": "",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "ChildScript43",
+    "Pin",
+    "FirstName",
+    "LastName",
+    "Email",
+    "PhoneNumber",
+    "Address",
+    "Submit"
+  ],
+  "apiCount": "17",
+  "LatestVersionNO": "1",
+  "ProcessType": "PT094105",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "HigherEnvironment": "qa",
+  "BackOffice_Widgets": [
+    "BO Pin"
+  ],
+  "Pin": "WNSVE",
+  "First Name": "LLKTYZZ",
+  "Last Name": "PLWMYEV",
+  "Email": "phbak@test.com",
+  "Phone Number": 6298423041,
+  "Address": 787,
+  "txNumber": "A915_000000002",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross "
+}

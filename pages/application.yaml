@@ -1,0 +1,183 @@
+pageName: Application
+
+locator:
+  search_application_textbox:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search Applications']"
+
+  select_first_application:
+    typeOfLocator: xpath
+    attributeValue: "(//*[contains(@data-test-id,'application')]//div)[3]"
+
+  TextInput_Widget:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Text Input']"
+
+  New_Application_button:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='New Application']//span[text()='New Application']"
+
+  exisiting_app_radiobutton:
+    typeOfLocator: xpath
+    attributeValue: "//p-radiobutton//div[@class='p-radiobutton-box']"  
+
+  create_application_name:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='applicationName']//input"
+
+  create_application_id:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Application Id']/../..//input"  
+
+  create_application_radio_newapp:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@data-test-id='type']//label)[1]"
+
+  create_application_radio_extapp:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@data-test-id='type']//label)[2]"
+
+  create_application_description:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='applicationDescription']//input"
+
+  create_app_Admins_Dropdown:
+    typeOfLocator: Placeholder
+    attributeValue: "Select"
+
+  create_app_Admins_OK_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'OK')]"
+
+  create_app_save_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"
+
+  Click_BackOffice:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Back Office']"  
+
+  create_app_Manager_OK_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'OK')]"  
+
+  Click_FrontOffice:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Front Office']"  
+
+  app_menu_option:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='app-options-btn']//i"
+
+  clear_app_search:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search Applications']/..//i[contains(@class,'pi-times-circle')]"
+
+  create_app_cancel_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Cancel']"
+
+  AppTile_AppName:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-main']//div[contains(@class,'f-card-title')]"
+
+  AppTile_AppDescription:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-main']//div[@class='f-card-description']"
+
+  AppTile_Updatedby:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-info']"
+
+  AutoAssignTasks Checkbox:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='isAutoAssignTasks']//label"
+
+  fileTypeJson:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='fileType']//label[normalize-space(text())='JSON']"
+
+  fileTypeDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='fileType']//span[contains(@class,'p-inputtext')]"
+
+  ApplicationTile:
+    typeOfLocator: xpath
+    attributeValue: "(//app-content-container//finlevit-card[@icon='pi pi-th-large'])[1]"  
+
+  AppTile_FOIcon:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='to-front-office-btn']//i"
+
+  AppTile_BOIcon:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='to-back-office-btn']//i"
+
+  AppTile_FO_Tooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Front Office']"
+
+  AppTile_BO_Tooltip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Back Office']"
+    
+  applicationEdit:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-options-button[@data-test-id='app-options-btn']//button"      
+
+  dataListSourceType:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='appSourceType']//label[normalize-space(text())='Data List']"
+
+  fileSourceType:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='appSourceType']//label[normalize-space(text())='File']"
+
+  sourceTypeDropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='applicationSourceConfigId']//span[contains(@class,'p-inputtext')]"
+
+  cronFrequency :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='category']/../..//label[text()=' Cron']"
+
+  cronExpression :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='cronExpression']//input"
+
+  hourlyFrequency :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='category']/../..//label[text()=' Hourly']"
+
+  hoursDropdown :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='hoursToExecute']//span[contains(@class,'p-dropdown-label')]"
+
+  create_application_radio_staticapp:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@data-test-id='type']//label)[3]"
+    
+  Daily :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='category']/../..//label[text()=' Daily']"  
+
+  PreferredStartTime :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='timeOftheweek']//span[contains(@class,'p-dropdown-label')]" 
+
+  StartDate :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='startDate']//span[contains(@class,'p-dropdown-label')]/../..//div[@aria-label='dropdown trigger']" 
+
+  StartTime  :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='startTime']//input"
+
+  EndTime  :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='endTime']//input"   
+
+  EndDate :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='endDate']//span[contains(@class,'p-dropdown-label')]/../..//div[@aria-label='dropdown trigger']"       
+  

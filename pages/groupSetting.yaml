@@ -1,0 +1,550 @@
+pageName: GroupSetting
+
+locator:
+  apiSetup:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='API Setup']"
+
+  emptyServiceProvider:
+    typeOfLocator: xpath
+    attributeValue: "//app-page-header[@headertitle='Service Providers']/..//div[text()='You dont have any Service Providers yet ']"
+
+  CloneServiceProvider:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Clone Service Provider']//button//span[text()='Clone Service Provider']"
+
+  availableServiceProvider:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-title ng-star-inserted']"
+
+  AddDataSources:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Add Data Sources']"
+
+  AddDataList:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Create Data List']//finlevit-button"
+
+  AddResourceName:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Name']/../..//input[@type='text']"
+
+  CreateButton:
+    typeOfLocator: xpath
+    attributeValue: "//footer//span[text()='Create']/../..//button"
+
+  ListName:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' List Name']/../..//input[@type='text']"
+
+  SelectService:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Service']/../..//span[text()='Select a Service']"
+
+  SelectOperation:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Operation']/../..//span[text()='Select an Operation']"
+
+  dataSources:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Data Sources']"
+
+  emptyDataSource:
+    typeOfLocator: xpath
+    attributeValue: "//app-page-header[@headertitle='Data Sources']/..//div[contains(text(),\"You don't have any Data Sources\")]"
+
+  availableDataSources :
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-title ng-star-inserted']"  
+
+  HigherEnvironment:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),'Higher Environment')]/../..//span//div)[1]"
+    
+  TestConnection:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Test Connection']"
+  
+  DeploymentDashbaord:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Deployment Dashboard']"
+
+  Promote:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Promote']"
+
+  StylesMenu:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Styles']"
+
+  AddStyle:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Add Style']//span[contains(text(),'Add')]"
+
+  StyleName:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Name']//input"
+
+  WidgetType:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Style')]/..//*[@placeholder='Select Widget Type']//span[contains(@class,'p-dropdown-label')]"
+
+  LabelFontStyle:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Label ']/../../..//div[text()=' Font Style']/../..//span[contains(@class,'p-dropdown-label')]"
+
+  LabelColor:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Label ']/../../..//div[text()=' Color' or text()=' Label Color' ]/../..//input"
+  
+  LabelColorInput:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Label ']/../../..//div[text()=' Color' or text()=' Label Color' ]/../..//div[contains(@class,'hex-text')]//input"
+
+  LabelFontSize:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Label ']/../../..//div[text()=' Font Size']/../..//input"
+
+  StyleCreateButton:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-button//span[text()='Create']"
+
+  DefaultGroupSlider:
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='slider round']"
+
+  LabelBackgroundColor:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Label ']/../../..//div[text()=' Background Color']/../..//input"
+  
+  LabelBackgroundColorInput:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Label ']/../../..//div[text()=' Background Color']/../..//div[contains(@class,'hex-text')]//input"
+
+  INPUT:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Input ']"
+
+  InputFontStyle:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Input ']/../../..//div[text()=' Font Style']/../..//span[contains(@class,'p-dropdown-label')]"
+
+  InputColor:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Input ']/../../..//div[text()=' Color' or text()=' Label Color' ]/../..//input"
+  
+  InputColorInput:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Input ']/../../..//div[text()=' Color' or text()=' Label Color' ]/../..//div[contains(@class,'hex-text')]//input"
+
+  InputFontSize:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Input ']/../../..//div[text()=' Font Size']/../..//input"
+
+  Styles Checkbox:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='bordered-container']//span[text()=' Checkbox ']"
+
+  CheckboxSize:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Checkbox ']/../../..//div[text()=' Size']/../..//input"
+
+  CheckboxChecked Background Color:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Checkbox ']/../../..//div[text()=' Checked Background Color']/../..//input[contains(@class,'p-inputtex')]"
+
+  CheckboxChecked Background Color Input:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Checkbox ']/../../..//div[text()=' Checked Background Color']/../..//div[contains(@class,'hex-text')]//input"
+
+  Styles RadioButton :
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='bordered-container']//span[text()=' Radio Button ']"
+
+  RadioButtonSize:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Radio Button ']/../../..//div[text()=' Button Size']/../..//input"
+
+  RadioButton Selected Background Color:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Radio Button ']/../../..//div[text()=' Selected Background Color']/../..//input[contains(@class,'p-inputtex')]"
+
+  RadioButton Selected Background Color Input:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Radio Button ']/../../..//div[text()=' Selected Background Color']/../..//div[contains(@class,'hex-text')]//input"
+
+  TitleFontStyle:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Title ']/../../..//div[text()=' Font Style']/../..//span[contains(@class,'p-dropdown-label')]"
+
+  TitleBGColor:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Title ']/../../..//div[text()=' Background Color']/../..//input"
+  
+  TitleBGColorInput:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Title ']/../../..//div[text()=' Background Color']/../..//div[contains(@class,'hex-text')]//input"
+
+  TitleFontSize:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Title ']/../../..//div[text()=' Font Size']/../..//input"
+
+  Back to Group:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='side-nav-container']//i[contains(@class,'left pi pi-chevron-left')]"
+
+  TabFontStyle:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Tab ']/../../..//div[text()=' Font Style']/../..//span[contains(@class,'p-dropdown-label')]"
+
+  TabColor:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Tab ']/../../..//div[text()=' Color']/../..//input"
+  
+  TabColorInput:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Tab ']/../../..//div[text()=' Color']/../..//div[contains(@class,'hex-text')]//input"
+
+  TabFontSize:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Tab ']/../../..//div[text()=' Font Size']/../..//input"
+
+  saveStyle:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"
+
+  Styles Option Text:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='bordered-container']//span[text()=' Option Text ']"
+
+  OptionFontStyle:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Option Text ']/../../..//div[text()=' Font Style']/../..//span[contains(@class,'p-dropdown-label')]"
+
+  OptionColor:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Option Text ']/../../..//div[text()=' Selected Color' or text()=' Color']/../..//input[contains(@class,'p-inputtext')]"
+  
+  OptionColorInput:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Option Text ']/../../..//div[text()=' Selected Color' or text()=' Color']/../..//div[contains(@class,'hex-text')]//input"
+
+  OptionFontSize:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Option Text ']/../../..//div[text()=' Font Size']/../..//input"
+
+  Styles widget search:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text[@placeholder='Search']//input"
+
+  Select Application Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@optionlabel='applicationName']//div[contains(@class,'input-placeholder')]"
+
+  Apply Button:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Apply']"
+
+  Label:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Label ']/.."
+
+  deleteStyle:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Delete']"
+
+  ConfirmdeleteStyle:
+    typeOfLocator: xpath
+    attributeValue: "//footer//span[text()='Delete']"
+
+  DataResourcesType:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='resource-item ng-star-inserted']//div[normalize-space(text())='elementName']" 
+
+  serviceDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Service Providers']/../..//p-dropdown//div[@aria-label='dropdown trigger']"   
+
+  AuthProviders:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Auth Providers']"
+
+  AddAuthProvider:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Auth Provider']"  
+
+  AuthName:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Name']/../..//input[@type='text']" 
+
+  AuthDescription:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Description']/../..//input[@type='text']"  
+
+  AuthType:
+    typeOfLocator: xpath
+    attributeValue: "//span[normalize-space(text())='Auth Type']" 
+
+  GrantType:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Grant Type']/../..//div[@aria-label='dropdown trigger']" 
+
+  UserName:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='UserName']/../..//input[@type='text']" 
+
+  Password:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Password']/../..//input[@type='password']" 
+
+  Create:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Create']/../..//button"  
+
+  CallbackUrl:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Callback URL']/../..//input[@type='text']"  
+
+  AuthUrl:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Auth URL']/../..//input[@type='text']"   
+
+  AccessTokenUrl:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Access Token URL']/../..//input[@type='text']"       
+
+  ClientID:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Client ID']/../..//input[@type='text']"  
+
+  ClientSecret:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Client Secret']/../..//input[@type='password']"  
+
+  Scope:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Scope']/../..//input[@type='text']"   
+
+  State:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='State']/../..//input[@type='text']"    
+
+  ClientAuthentication:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Client Authentication']/../..//div[@aria-label='dropdown trigger']" 
+
+  RefreshTokenUrl:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Refresh Token URL']/../..//input[@type='text']"      
+
+  AccessToken:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Get New Access Token']/../..//button"     
+
+  AppHeader:
+    typeOfLocator: xpath
+    attributeValue: "//app-page-header//div[contains(@class,'title')]"    
+
+  EmailOrUserID:
+    typeOfLocator: xpath
+    attributeValue: "//input[@name='Email or User ID']" 
+
+  IntPassword:
+    typeOfLocator: xpath
+    attributeValue: "//input[@name='Password']"
+
+  Submit:
+    typeOfLocator: xpath
+    attributeValue: "//button[@type='submit']"  
+
+  Manual:
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='Manual']/..//div[contains(@class,'p-radiobutton-box')]" 
+
+  URI:
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='URI']/..//div[contains(@class,'p-radiobutton-box')]"   
+
+  HostName:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Host Name']/../..//input[@type='text']"   
+
+  Port:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Port']/../..//input[@type='text']" 
+
+  DataSourceUsername:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Username']/../..//input[@type='text']" 
+
+  DataSourcePassword:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Password']/../..//input[@type='password']"       
+
+  UriInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='URI']/../..//input[@type='text']"  
+
+  ConnectionSuccess:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Connection Successful ']" 
+
+  ApplicationSourceSetup:
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='For Application Source Setup']/../..//div[@class='p-checkbox-box']" 
+
+  Database:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Database')]/../..//div[@aria-label='dropdown trigger']"   
+
+  CollectionName:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Collection Name')]/../..//div[@aria-label='dropdown trigger']"  
+
+  OperationType:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Operation Type')]/../..//div[@aria-label='dropdown trigger']"    
+
+  Query:
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),'Query')]/../..//textarea)[1]"  
+
+  ResponseJson:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Response Json')]/../..//textarea" 
+
+  TestQuery:
+    typeOfLocator: xpath
+    attributeValue: "//footer//button//span[text()='Test Query']" 
+
+  Run:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Run']/../..//button"  
+
+  UseResponse:
+    typeOfLocator: xpath
+    attributeValue: "//app-icon-btn[@label='Use Response']//button"  
+
+  Back:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Back']/../..//button"   
+
+  Success:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Success')]"   
+
+  accessToken:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='access_token:']"                                                                                                
+
+  ReturnSingleRecord:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Return Single Record')]/../..//div[@aria-label='dropdown trigger']"   
+
+  UpdateQuery:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Update Query')]/../..//textarea"                                                     
+
+  Schema:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Schema')]/../..//div[@aria-label='dropdown trigger']"
+
+  Table:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Table')]/../..//div[@aria-label='dropdown trigger']"
+
+  responseFieldContainner:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='field-container']"
+
+  FieldList:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='KNA1_LAND1']/../..//div[@class='field-label']"
+
+  deleteAuthProvider:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Delete']"
+
+  Pagelevel_alert_message:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='alert']"
+
+  Pagelevel_alert_close:
+    typeOfLocator: xpath
+    attributeValue: "//button[@aria-label='Close']"
+
+  editTile:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-title ng-star-inserted' and normalize-space(text())='elementName']/../../..//*[@lefticon='pi pi-pencil']"
+
+  deleteTile:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-title ng-star-inserted' and normalize-space(text())='elementName']/../../..//*[@lefticon='pi pi-trash']"
+
+  ClientId:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Client Id']/../..//input[@type='text']"  
+
+  AccessKey:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Access Key']/../..//input[@type='password']"   
+
+  Region:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Region']/../..//span[text()='Select Region']"   
+
+  AddParameter:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-panel[@label='Parameters']//div[@class='right']//i[contains(@class,'left pi pi-plus')]/../../../..//button"    
+
+  updateButton:
+    typeOfLocator: xpath
+    attributeValue: "//footer//span[text()='Update']"   
+
+  editTable:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../../../..//*[@icon='pi pi-pencil']//span[text()='Edit']"
+
+  cardName:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-title ng-star-inserted' and normalize-space(text())='elementName']"
+
+  tableName:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-td ng-star-inserted']//div[normalize-space(text())='elementName']"
+
+  deleteTable:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../../../..//*[@icon='pi pi-trash']//span[text()='Delete']"
+
+  cancel:
+    typeOfLocator: xpath
+    attributeValue: "//button//span[text()='Cancel']"
+
+  deleteDialog:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='heading-5 mb-3 error-msg error-msg-md']"
+
+  okButton:
+    typeOfLocator: xpath
+    attributeValue: "//button//span[text()='Ok']"
+
+  ParameterName:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='header']//div[@class='right']//button"  
+
+  TableName:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),' Table Name')]/../..//div[@aria-label='dropdown trigger']"  
+     
+  bulkUpsertRequestJson :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='requestJson']//textarea"
+
+  SuccessMsg:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Successfully')]"  
+    
+
+        
+

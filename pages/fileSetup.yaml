@@ -1,0 +1,74 @@
+pageName: fileSetup
+
+locator:
+  addFile :
+    typeOfLocator: xpath
+    attributeValue: "//*[@label=' Add File']//span[normalize-space(text())='Add File']"
+
+  fileName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='name']//input"
+
+  queueName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='queueConfig']//span[contains(@class,'p-dropdown-label')]"
+
+  next :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Next']"
+
+  applicationIdentifiers :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='applicationIdentifiers']//div[contains(@class,'p-multiselect-label ')]"
+
+  transactionIdentifiers :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='transactionIdentifiers']//div[contains(@class,'p-multiselect-label ')]"
+
+  save :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"
+
+  savedSuccessfully:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Successfully')]"
+
+  payloadKey :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='payloadKey']//span[contains(@class,'p-dropdown-label')]"
+
+  fileSearch :
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search file by name']"
+
+  cancel :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Cancel']"
+
+  queueDestination :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='targetLocation']//label[text()=' Queue']"
+
+  fileFolderDestination :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='targetLocation']//label[text()=' File Folder']"
+
+  s3Destination :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='targetLocation']//label[text()=' S3']"
+
+  processedFolderInput :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='processedFolder']//input"
+
+  processedFolderDropdown :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='processedFolder']//span[contains(@class,'p-dropdown-label')]"
+
+  fileType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='destinationFileType']//span[contains(@class,'p-dropdown-label')]"
+
+  fileSeparator :
+    typeOfLocator: xpath
+    attributeValue: "//*[@name='fileSeparator']//input"

@@ -1,0 +1,127 @@
+{
+  "AppName": "CS75_App_",
+  "Application_Name": "CS75_App_20231212071605",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Finlevit_payload": "https://payload.sit.tabner.konfig.io/#/653288d0f96517240fe7fe27",
+  "App_Manager": "Scott Dale",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "Employees",
+    "Submit"
+  ],
+  "LatestVersionNO": "1",
+  "txNumber": "A4376_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": "Mike Ross",
+  "AppManager": "Mike Ross,Arthur Song,Avi Green",
+  "FileName": "CS75_MongoDB20231212071534",
+  "AuthName": "Automation No Auth",
+  "AuthDescription": "Auth created using Automation script",
+  "SourceType": "Data List",
+  "IdPiApiForAutomation": {
+    "PersonalInfo.Pin": "{{Pin}}"
+  },
+  "GetAllPiApiForAutomation": {},
+  "SavePiApiForAutomation": {
+    "PersonalInfo": {
+      "Pin": "{{Pin}}",
+      "FirstName": "{{FN}}",
+      "LastName": "{{LN}}",
+      "Gender": "{{Gen}}",
+      "Email": "{{email}}",
+      "Phone": "{{phone}}",
+      "Salary": "{{salary}}",
+      "IsUSCitizen": "{{IsUSCitizen}}",
+      "CountryofResidence": "{{country}}"
+    },
+    "AddressDetails": {
+      "Line1": "{{line1}}",
+      "Locality": "{{locality}}",
+      "State": "{{state}}",
+      "Zipcode": "{{zipcode}}"
+    }
+  },
+  "SaveAllPiApiForAutomation": [
+    {
+      "PersonalInfo": {
+        "Pin": "{{Pin}}",
+        "FirstName": "{{FN}}",
+        "LastName": "{{LN}}",
+        "Gender": "{{Gen}}",
+        "Email": "{{email}}",
+        "Phone": "{{phone}}",
+        "Salary": "{{salary}}",
+        "IsUSCitizen": "{{IsUSCitizen}}",
+        "CountryofResidence": "{{country}}"
+      },
+      "AddressDetails": {
+        "Line1": "{{line1}}",
+        "Locality": "{{locality}}",
+        "State": "{{state}}",
+        "Zipcode": "{{zipcode}}"
+      }
+    }
+  ],
+  "PiApiAutomationValue": {
+    "Value1": "Test1",
+    "Value2": "Tabner",
+    "Value3": "Konfig",
+    "Value4": "Male",
+    "Value5": "Tabner",
+    "Value6": "122344",
+    "Value7": "tab@tes.com",
+    "Value8": "true",
+    "Value9": "test",
+    "Value10": "2325 West Arbors Drive",
+    "Value11": "Charlotte",
+    "Value12": "North Carolina",
+    "Value13": "28262"
+  },
+  "PiApiAutomationDataType": {
+    "DataType1": "STRING",
+    "DataType2": "NUMBER",
+    "DataType3": "STRING",
+    "DataType4": "STRING",
+    "DataType5": "STRING",
+    "DataType6": "STRING",
+    "DataType7": "NUMBER",
+    "DataType8": "BOOLEAN",
+    "DataType9": "STRING",
+    "DataType10": "STRING",
+    "DataType11": "STRING",
+    "DataType12": "STRING",
+    "DataType13": "STRING"
+  },
+  "UpdateByIdPiApiForAutomation": {
+    "PersonalInfo": {
+      "Email": "{{Email}}",
+      "Phone": "{{Phone}}",
+      "CountryofResidence": "{{CountryofResidence}}",
+      "Salary": "{{salary}}"
+    }
+  },
+  "UpdatePiApiAutomationDataType": {
+    "DataType1": "STRING",
+    "DataType2": "STRING",
+    "DataType3": "STRING",
+    "DataType4": "STRING",
+    "DataType5": "NUMBER"
+  },
+  "UpdatePiApiAutomationValue": {
+    "Value1": "Test1",
+    "Value2": "Tabner@test.com",
+    "Value3": "1234567890",
+    "Value4": "US",
+    "Value5": "12345"
+  },
+  "ConnectionType": "URI",
+  "HostName": "10.10.225",
+  "Port": 9094,
+  "URI": "mongodb+srv://abhimanyudhar:Tabner123@cluster0.mw7c2gx.mongodb.net/",
+  "FileNamePrefix": "CS75_MongoDB",
+  "CronExpression": "0 0/5 * * * *",
+  "Frequency": "Cron"
+}

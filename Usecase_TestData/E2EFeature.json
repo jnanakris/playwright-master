@@ -1,0 +1,30 @@
+{
+  "AppName": "App",
+  "Application_Name": "App20230413053058",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Finlevit_payload": "http://ui-fp.dev.finlevit.us/#/6437cbd52d21694a6c8fb153",
+  "GroupName": "Test QA Automation2",
+  "GroupDescription": "Group holds app created using Playwright-Automation framewrok",
+  "txNumber": "A819_000000008",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,Reject,",
+  "AssignedTo": " Manikanta Akula ",
+  "FO_Agent": "Manikanta Akula,Mary Arul,Pradeep Chadalawada,Mohan Srinivasan",
+  "FrontOffice_Widgets": [
+    "Personal Information",
+    "First Name",
+    "Last Name",
+    "Number",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Personal Information",
+    "Father Name",
+    "Mother Name",
+    "Gender"
+  ],
+  "AppManager": "Manikanta Akula,Mary Arul",
+  "Operations": "Pradeep Chadalawada,Mary Arul",
+  "LatestVersionNO": "1"
+}

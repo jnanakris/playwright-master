@@ -1,0 +1,197 @@
+pageName: apiSetup
+
+locator:
+  addServiceProvider :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Service Provider']"
+
+  serviceProviderName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='name']//input"
+
+  serviceProviderDescription :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='description']//textarea"
+
+  endPointURL :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='endPoint']//input"
+
+  authorizationType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='authProviderId']//span[contains(@class,'p-dropdown-label')]"
+
+  create :
+    typeOfLocator: xpath
+    attributeValue: "//footer//finlevit-button//span[text()='Create']"
+
+  emptyServiceProvider:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='empty-container']//div[1]"
+
+  availableServiceProvider :
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='f-card-title ng-star-inserted']" 
+
+  Success:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Successfully')]"  
+
+  addService :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Service']"
+
+  addOperation :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Operation']"
+
+  operationName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='resourceName']//input"
+
+  operationDescription :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='description']//textarea"
+
+  operationPath :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='endpoint']//input"
+
+  requestType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='httpMethod']//span[contains(@class,'p-dropdown-label')]"
+
+  responseJson :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='responsePayload']//textarea"
+
+  requestJson :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='requestPayload']//textarea"
+
+  testOperation :
+    typeOfLocator: xpath
+    attributeValue: "//footer//finlevit-button//span[text()='Test Operation']"
+
+  run :
+    typeOfLocator: xpath
+    attributeValue: "//footer//finlevit-button//span[text()='Run']"
+
+  back :
+    typeOfLocator: xpath
+    attributeValue: "//footer//finlevit-button//span[text()='Back']"
+
+  useResponse :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Use Response']"
+
+  update :
+    typeOfLocator: xpath
+    attributeValue: "//footer//finlevit-button//span[text()='Update']"
+
+  additionalParameters :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Additional Parameters']"
+
+  additionalParametersAddicon :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Additional Parameters']/../../../../..//finlevit-icon-preview//i[contains(@class,'left pi pi-plus primeng')]"
+ 
+  additionalParametersType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='parameterType']//div[contains(text(),'Type')]/..//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  additionalParametersKey :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Key')]/..//input"
+
+  additionalParametersValue :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Value')]/..//input"
+
+  arrowLeft :
+    typeOfLocator: xpath
+    attributeValue: "//i[contains(@class,'left pi pi-arrow-left')]"
+ 
+  serviceType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='webServiceType']//span[contains(@class,'p-dropdown-label')]"
+
+  contentType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='contentType']//span[contains(@class,'p-dropdown-label')]"
+
+  queryParameters :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Query / Path Parameters']"
+
+  queryParametersAddicon :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Query / Path Parameters']/../../../../..//finlevit-icon-preview//i[contains(@class,'left pi pi-plus primeng')]"
+ 
+  queryParametersName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='name']//input"
+
+  queryParameterDatatype :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='dataType']/..//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  queryParametersValue :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='value']//input"
+
+  extServiceType:
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='serviceProviderType']//label[text()=' External']"
+
+  formURLParameters :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Form URL Parameters']"
+
+  formURLParametersAddicon :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Form URL Parameters']/../../../../..//finlevit-icon-preview//i[contains(@class,'left pi pi-plus primeng')]"
+ 
+  formURLParametersName :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='name']//input"
+
+  formURLParametersDatatype :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='dataType']/..//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  formURLParametersValue :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='value']//input"
+
+  ErrorCodes :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Error Codes']"
+
+  ErrorCodesAddicon :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Error Codes']/../../../../..//finlevit-icon-preview//i[contains(@class,'left pi pi-plus primeng')]"
+ 
+  ErrorCodesHttpCode :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='httpCode']//input"
+
+  ErrorCodesType :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='type']/..//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  useErrorResponse :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Use Error Response']"
+
+
+  
+
+ 
+ 
+ 
+
+
+
+  

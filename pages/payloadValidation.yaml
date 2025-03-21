@@ -1,0 +1,93 @@
+pageName: PayloadValidate
+
+locator:
+  Dropdown :
+    typeOfLocator: xpath
+    attributeValue: "(//div[contains(text(),'elementName')]/parent::div/following-sibling::div//span)[1]"
+
+  TextInput :
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/parent::div/following-sibling::div//input"
+
+  btn_login :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='passWord']/following::button[1]//span"
+
+  ValidationCutomMsg:
+    typeOfLocator: xpath
+    attributeValue: "//small[@class='validation-message']"  
+
+  CharacterValidationMsg:
+    typeOfLocator: xpath
+    attributeValue: "//small[@class='p-text-secondary pt-1']" 
+
+  HourPicker:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-hour-picker ng-tns-c119-1']"
+
+  CapitalCity:
+    typeOfLocator: xpath  
+    attributeValue: "//div[text()=' CapitalCity']/parent::div/../../../..//finlevit-text"      
+
+  Age:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Age']/../../../../..//finlevit-number"
+
+  NumberHidden:
+    typeOfLocator: xpath
+    attributeValue: "//gridster-item[contains(@class,'display-none')]//div[text()=' Number']" 
+
+  LastNameHidden:
+    typeOfLocator: xpath
+    attributeValue: "//gridster-item[contains(@class,'display-none')]//div[text()=' Last Name']"      
+
+  SSNDefault:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'SSN / ITIN')]/parent::div/following-sibling::div//input" 
+
+  PhoneNumberDefault:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'PhoneNumber')]/parent::div/following-sibling::div//input"   
+
+  DefaultValue:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' elementName']/../..//*[contains(@class,'p-inputtext p-component')]"  
+
+  DropDownPlaceholder:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Emp Type']/../..//p-dropdown"  
+
+  LeastValValidationMsg:
+    typeOfLocator: xpath
+    attributeValue: "(//small[contains(@class,'validation-message')])[1]" 
+
+  FirstNameMaxChar:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='FirstName']/ancestor::finlevit-text//small[@class='p-text-secondary pt-1']"   
+
+  SalaryMaxChar:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Salary']/ancestor::finlevit-number//small[@class='p-text-secondary pt-1']"   
+
+  SalaryDefault:
+    typeOfLocator: xpath
+    attributeValue: "//*[normalize-space(text())='Salary']/../..//*[contains(@class,'p-inputtext p-component')]/../../..//p-inputnumber"  
+
+  Pin :
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Pin']/parent::div/following-sibling::div//input"   
+
+  PayloadFieldValue:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' elementName']/parent::div/../../../../..//div[contains(@class,'input-container')]/*)[1]"  
+
+  NumStr_Output:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' NumStr_Output']/parent::div/following-sibling::div//input[contains(@class,'p-inputtext-custom p-filled')]"         
+    
+  StrNum_Output:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' StrNum_Output']/parent::div/following-sibling::div//input[contains(@class,'p-inputnumber-input p-filled')]"         
+
+
+  

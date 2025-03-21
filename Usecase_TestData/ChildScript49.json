@@ -1,0 +1,43 @@
+{
+  "AppName": "CS49_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS49.1",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "Application_Name": "CS77_App_20230807083515",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "Personal Info",
+    "Pin",
+    "firstName",
+    "lastName",
+    "pinNPIN",
+    "email",
+    "phoneNumber",
+    "Country Of Residence",
+    "States",
+    "submit"
+  ],
+  "BackOffice_Widgets": [
+    "Personal Info"
+  ],
+  "Finlevit_payload": "https://payload.dev.tabner.konfig.io/#/64d10830bafb3a659cd0be15",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "First Name": "MCPPL",
+  "Phone Number": 6649503894,
+  "Email": "ttmde@test.com",
+  "SSN/ITIN": 106687179,
+  "User Name": "NWPEC",
+  "Salary": 14326,
+  "Address": 14312,
+  "txNumber": "A582_000000001",
+  "GroupName": "Automation-Test Delete Styles",
+  "FirstName": "GUFIK",
+  "MailBody": "Dear {{FirstName}} {{LastName}},Welcome to the team Team Konfig!!",
+  "MailSub": "Welcome @EmpEmail",
+  "MailSubSuperscript": "Email Task: @EmpPin",
+  "MailBodySuperscript": "You received this eamil as part of SuperScript automation testing for user {EmpPin",
+  "Age": 6
+}

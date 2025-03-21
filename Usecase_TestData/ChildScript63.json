@@ -1,0 +1,26 @@
+{
+  "AppName": "CS63_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS63.2",
+  "txNumber": "A128_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "Application_Name": "CS63_App_20230819025654",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "Users from Employee",
+    "EmployerInformation",
+    "EmployerID",
+    "EmployerName",
+    "JobType",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "EmployerInformation"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "https://payload.dev.tabner.konfig.io/#/64e08ae23d44983419e40cdd"
+}

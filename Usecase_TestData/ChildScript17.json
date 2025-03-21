@@ -1,0 +1,25 @@
+{
+  "AppName": "CS17_App_",
+  "Application_Name": "CS17_App_20230503102813",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS17.V1",
+  "Finlevit_payload": "http://ui-fp.qa.konfig.io/#/645292a80f890c5abca75a38",
+  "GroupName": "Test QA Automation2",
+  "GroupDescription": "Group holds app created using Playwright-Automation framewrok",
+  "txNumber": "A142_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,Reject,",
+  "AssignedTo": " Mike Ross ",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "First Name",
+    "Last Name",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Employee List"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Pradeep Chadalawada,Mary Arul",
+  "LatestVersionNO": "1"
+}

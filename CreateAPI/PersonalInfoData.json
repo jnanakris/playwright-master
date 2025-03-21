@@ -1,0 +1,202 @@
+[
+  {
+    "PersonalInfo": {
+      "Salary": 1234567,
+      "IsUSCitizen": true,
+      "Email": "manikanta.akula@tabnerglobal.com",
+      "Pin": "makula",
+      "FirstName": "Manikanta",
+      "Phone": "7372290323",
+      "CountryofResidence": "IN",
+      "LastName": "Akula",
+      "Gender": "Male",
+      "SSN": "369-52-4128"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Salary": 5000000,
+      "IsUSCitizen": true,
+      "Email": "mary.arul@tabnerglobal.com",
+      "Pin": "marul",
+      "FirstName": "Mary",
+      "Phone": "1225553333",
+      "CountryofResidence": "CY",
+      "LastName": "Arul",
+      "Gender": "Female",
+      "SSN": "369-52-4129"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Salary": 500000,
+      "IsUSCitizen": true,
+      "Email": "rajesh@finlevit.com",
+      "Pin": "rajesh",
+      "FirstName": "Rajesh",
+      "Phone": "7049882000",
+      "CountryofResidence": "US",
+      "LastName": "Navduri",
+      "Gender": "male",
+      "SSN": "369-52-4126"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Salary": 500000,
+      "IsUSCitizen": true,
+      "Email": "pradeep.chadalawada@tabnerglobal.com",
+      "Pin": "pchadalawada",
+      "FirstName": "Pradeep",
+      "Phone": "7049882000",
+      "CountryofResidence": "US",
+      "LastName": "Chadalawada",
+      "Gender": "male",
+      "SSN": "369-52-4127"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Salary": 3000000,
+      "IsUSCitizen": true,
+      "Email": "mohan.srinivasan@tabnerglobal.com",
+      "Pin": "msrinivasan",
+      "FirstName": "Mohan",
+      "Phone": "704-988-1989",
+      "CountryofResidence": "IN",
+      "LastName": "Srinivasan",
+      "Gender": "Male",
+      "SSN": "368-52-4129"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Salary": 765765776,
+      "IsUSCitizen": true,
+      "Email": "abhimanyu.dhar@tabnerglobal.com",
+      "Pin": "adhar",
+      "FirstName": "Abhimanyu",
+      "Phone": "78457890543",
+      "CountryofResidence": "US",
+      "LastName": "Dhar",
+      "Gender": "Male",
+      "SSN": "369-52-4126"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Salary": 5756757,
+      "IsUSCitizen": true,
+      "Email": "mross@tabnerglobal.com",
+      "Pin": "mross",
+      "FirstName": "mike",
+      "Phone": "8976904567",
+      "CountryofResidence": "US",
+      "LastName": "ross",
+      "Gender": "Male",
+      "SSN": "369-52-5675"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Salary": 4334333,
+      "IsUSCitizen": true,
+      "Email": "sdale@tabnerglobal.com",
+      "Pin": "sdale",
+      "FirstName": "Scott",
+      "Phone": "77292782827",
+      "CountryofResidence": "US",
+      "LastName": "Dale",
+      "Gender": "Male",
+      "SSN": "234-52-4126"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "IsUSCitizen": true,
+      "Salary": 55554443,
+      "Email": "agreen@tabnerglobal.com",
+      "Pin": "agreen",
+      "FirstName": "Aruthur",
+      "Phone": "7289373536",
+      "CountryofResidence": "US",
+      "LastName": "Green",
+      "Gender": "Male",
+      "SSN": "888-52-4126"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "IsUSCitizen": true,
+      "Salary": 56665554,
+      "Email": "thanks@tabnerglobal.com",
+      "Pin": "thanks",
+      "FirstName": "Tom",
+      "Phone": "9890876543",
+      "CountryofResidence": "US",
+      "LastName": "Hanks",
+      "Gender": "Male",
+      "SSN": "789-52-4126"
+    },
+    "AddressDetails": {
+      "Locality": "Charlotte",
+      "State": "NC",
+      "Zipcode": "28269",
+      "Line1": "Charlotte"
+    }
+  }
+]

@@ -1,0 +1,437 @@
+pageName: expressionBuilder
+
+locator:
+  ShowHide:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Show & Hide']/.."
+
+  AddCondition:
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='Add Condition']/../..//button)[1]"
+
+  Name:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'Rule')]//ancestor::finlevit-panel//Input[@placeholder='Enter Name*']"
+
+  Trigger:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'Rule')]//ancestor::finlevit-panel//div[text()=' Trigger ']/..//div[contains(@class,'p-multiselect-trigger')]"
+
+  Condition:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Conditions ']"
+
+  Compare:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Compare ']"
+
+  OperandSpace:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='operand-area']"
+
+  Arithmetic:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Arithmetic ']"
+
+  String:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' String ']"
+
+  Date:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Date ']"
+
+  Operands:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Operands ']"
+
+  Assign:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Assign']/../..//div"
+
+  Equality:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Equality']/../..//div"
+
+  Greater Than:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Greater Than']/../..//div"
+
+  Less Than:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Less Than']/../..//div"
+
+  GTE:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='GTE']/../..//div"
+
+  LTE:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='LTE']/../..//div"
+
+  If:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='If']/../..//div"
+
+  Else If:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Else If']/../..//div"
+
+  Else:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Else']/../..//div"
+
+  And:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='And']/../..//div"
+
+  Or:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Or']/../..//div"
+
+  Not:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Not']/../..//div"
+
+  Contains:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Contains']/../..//div"
+
+  Starts With:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Starts With']/../..//div"
+
+  Ends With:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Ends With']/../..//div"
+
+  Is Empty:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Is Empty']/../..//div"
+
+  Trim:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Trim']/../..//div"
+
+  Add Months:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Add Months']/../..//div"
+
+  Add Days:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Add Days']/../..//div"
+
+  Add Years:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Add Years']/../..//div"
+
+  String Constant:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='String Constant']/../..//div"
+
+  Number Constant:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Number Constant']/../..//div"
+
+  Boolean Constant:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Boolean Constant']/../..//div"
+
+  Date Constant:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Date Constant']/../..//div"
+
+  Payload Fields:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Payload Fields']/../..//div"
+
+  Hide:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Hide']/../..//div"
+
+  Show:
+    typeOfLocator: xpath
+    attributeValue: "//p[text()='Show']/../..//div"
+
+  payloadFieldDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//p-dropdown//span[text()='Select Field']"
+
+  condition execute area:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='execute-area']"
+
+  Show and Hide:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show and Hide ']"
+
+  HideDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Select fields to HIDE ']/../../..//div[contains(@class,'p-multiselect-trigger')]"
+
+  ShowDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Select fields to SHOW ']/../../..//div[contains(@class,'p-multiselect-trigger')]"
+
+  condition tree:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='condition-tree']"
+
+  condition expression:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='placeholder-info' and contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'drop fields')])[last()]"
+
+  PayloadDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//input[@placeholder='Select Field' and @class='p-inputtext p-component p-element mat-menu-trigger p-inputtext-xs'])[1]"
+
+  StringConstant:
+    typeOfLocator: xpath
+    attributeValue: "(//input[@placeholder='Enter value' and @class='p-inputtext p-component p-element p-inputtext-xs ng-star-inserted'])[1]"
+
+  IfShowDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='title-if']/../..//div[normalize-space(text())='SHOW']/..//div[contains(@class,'p-multiselect-trigger')]"
+
+  ElseShowDropDown:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' ELSE ']/../../..//div[normalize-space(text())='SHOW']/ancestor::finlevit-lib-select/parent::div/../../../..//app-function-container//div[contains(@class,'p-multiselect-trigger')])[1]"
+
+  IfHideDropDown:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' IF ']/../../..//div[normalize-space(text())='HIDE']/ancestor::finlevit-lib-select/parent::div/../../../..//app-function-container//div[contains(@class,'p-multiselect-trigger')])[1]"
+
+  ElseHideDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='title-else']/../..//div[normalize-space(text())='HIDE']/..//div[contains(@class,'p-multiselect-trigger')]"
+
+  ElseIfHideDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='title-else-if']/../..//div[text()=' HIDE ']/..//div[contains(@class,'p-multiselect-trigger')]"
+
+  ElseIfShowDropDown:
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='title-else-if']/../..//div[text()=' SHOW ']/..//div[contains(@class,'p-multiselect-trigger')]"
+
+  Save:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']/../..//button"
+
+  triggerExpandArrow:
+    typeOfLocator: xpath
+    attributeValue: "//button[contains(@class,'toggle-icon-btn-grey')]//i"
+
+  BusinessRules:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Business Rules']/.."
+
+  AddRule:
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='Add Rule']/../..//button)[1]"
+
+  ConditionalErrMsg:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Conditional Error Messages']/.."
+
+  NumberConstant:
+    typeOfLocator: xpath
+    attributeValue: "(//input[@class='p-inputtext p-component p-element p-inputtext-xs p-inputnumber-input'])[1]"
+
+  FieldError:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-lib-select[@placeholder='Select Error Field']//div[@aria-label='dropdown trigger']"
+
+  ErrorMsg:
+    typeOfLocator: xpath
+    attributeValue: "(//input[@class='p-inputtext p-component p-element p-inputtext-xs ng-star-inserted' and @placeholder='Enter Message'])[1]"
+
+  Spacer:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='placeholder-info'])[last()]"
+
+  BooleanConstant:
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='Select True or False']/../../..//div[@aria-label='dropdown trigger'])[1]"
+
+  Pagelevel_alert_messgae:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='alert']"
+
+  DateConstant:
+    typeOfLocator: xpath
+    attributeValue: "(//p-calendar[not(contains(@class,'p-inputwrapper-filled'))]//input)[1]"
+
+  application:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = 'application')]/../../..//div[@role='menuitem']"
+
+  options:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menuitem']//div[normalize-space(text())='elementName']/../..//div[@tooltipposition='top']"
+
+  Single_Screen_Payload:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Single_Screen_Payload']"
+
+  Back_Office_Fields:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Back_Office_Fields']"
+
+  TransformationSave:
+    typeOfLocator: xpath
+    attributeValue: "//h4[text()='Conditions']/..//span[text()='Save']/../..//button"
+
+  root:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='root']"
+
+  SourceDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//input[@placeholder='Select Field' and @class='p-inputtext p-component p-element mat-menu-trigger p-inputtext-xs'])[1]"
+
+  refDropDown:
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='Select Field'])[1]"
+
+  addRuleButton:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Add Rule']//button"
+
+  RuleSave:
+    typeOfLocator: xpath
+    attributeValue: "//app-transformation//app-icon-btn[@label='Save']"
+
+  Close:
+    typeOfLocator: xpath
+    attributeValue: "//app-btn-primary[@label='Close']"
+
+  LabelRefFieldDelete:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='loop-container']//div[text()=' label ']/..//finlevit-icon-preview[@icon='pi pi-trash'])[1]"
+
+  ValueRefFieldDelete:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='loop-container']//div[text()=' value ']/..//finlevit-icon-preview[@icon='pi pi-trash'])[1]"
+
+  Rule body:
+    typeOfLocator: xpath
+    attributeValue: "(//div[@class='placeholder-info' and contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), 'drop fields')])[last()]"
+
+  Loops:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Loops ']"
+
+  Create Options:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Create Options']/../..//div"
+
+  DestinationField:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Destination Fields']/../..//div"
+
+  SourceField:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Source Fields']/../..//div"
+
+  ForEachDropField:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' For Each ' or text()=' FOR_EACH ']/../../../../..//div[@class='loop-container']//div[contains(text(),'Drop fields')]/../..//div[contains(@class,'operand-drop-placeholder')])[1]"
+
+  LabelValueDropField:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' For Each ' or text()=' FOR_EACH ']/../../../../..//div[@class='loop-container']//div[contains(@class,'placeholder-info')])[1]"
+
+  GetKey:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Get Key']/../..//div"
+
+  request:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz') = 'Request')]/../../..//div[@role='menuitem']"
+
+  DropFields:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='expression column-drop-container']//div[text()=' Drop Fields ' and @class='placeholder-info'][last()]"
+
+  AddVariable:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Variable']/../..//button"
+
+  UserDefinedVariable:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='User Defined Variables']/../..//button"
+
+  VariableName:
+    typeOfLocator: xpath
+    attributeValue: "//app-rule-builder//input[@placeholder='Enter Name*' and not(contains(@class,'p-inputtext p-component p-element p-inputtext-xs p-filled'))]"
+
+  OkButtton:
+    typeOfLocator: xpath
+    attributeValue: "//i[contains(@class,'left pi pi-check primeng')]/../../../..//button"
+
+  UserVariableDropDown:
+    typeOfLocator: xpath
+    attributeValue: "(//input[@placeholder='Select Field' and @class='p-inputtext p-component p-element mat-menu-trigger p-inputtext-xs'])[1]"  
+
+  GetkeyDestinationField:
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='Select Field'])[1]"  
+
+  App:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Application' or normalize-space(text())='application']"    
+
+  SetKeyInput:
+    typeOfLocator: xpath
+    attributeValue: "(//div[normalize-space(text())='Key']/..//input[@type='text' and @class='p-inputtext p-component p-element p-inputtext-xs ng-star-inserted'])[1]"      
+
+  ForEachVar:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' For Each ' or text()=' FOR_EACH ']/../..//input[@placeholder='Enter value'])[last()]"   
+
+  IfblockOptions:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' IF ']/..//i[contains(@class,'left pi pi-ellipsis')]"  
+
+  Clone:
+    typeOfLocator: xpath
+    attributeValue: "//li//span[text()='Clone']" 
+
+  CreateFunctions:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Create Function']/../..//button" 
+
+  FunctionName:
+    typeOfLocator: xpath
+    attributeValue: "//input[not(@disabled) and @placeholder='Enter Function Name*']" 
+
+  AddParams:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Param']/../..//button[not(@disabled)]"  
+
+  ParamName:
+    typeOfLocator: xpath
+    attributeValue: "//input[not(@disabled) and @placeholder='Enter Param Name*']"
+    # attributeValue: "//finlevit-text[contains(@class,'ng-untouched')]//input[@placeholder='Enter Param Name*']"    
+
+  FunctionsParams:
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='Select Field'])[1]" 
+
+  FooterSave:
+    typeOfLocator: xpath
+    attributeValue: "//mat-expansion-panel//app-btn-primary[@label='Save']"  
+
+  Functions:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Functions']/../..//button"  
+
+  CallFunctionDropdown:
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='Select Function'])[1]"   
+
+  CollapseFunction:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/../../../..//i[text()=' keyboard_arrow_down ']"         
+
+   

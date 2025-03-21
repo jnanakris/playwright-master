@@ -1,0 +1,32 @@
+pageName: LoginPage
+
+locator:
+  username :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='userName']//input"
+
+  password :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='passWord']//input"
+
+  btn_login :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='passWord']/following::button[1]//span"
+
+  okta_LoginwithSSO :
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='login-btn']"
+
+  okta_username :
+    typeOfLocator: xpath
+    attributeValue: "//input[@name='identifier']"
+
+  okta_password :
+    typeOfLocator: xpath
+    attributeValue: "//input[@name='credentials.passcode']"
+
+  okta_signIn :
+    typeOfLocator: xpath
+    attributeValue: "//input[@data-type='save']"
+
+  

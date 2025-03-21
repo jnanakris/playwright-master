@@ -1,0 +1,12 @@
+pageName: PayloadSetup
+
+locator:
+  PayloadSetup:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Payload Setup']"
+
+  SourcePath:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Source Path']/../..//input"
+  
+  

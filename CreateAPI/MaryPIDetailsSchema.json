@@ -1,0 +1,13 @@
+{
+    "Pin": "string",
+    "FN": "string",
+    "LN": "string",
+    "Email": "string",
+    "Phone": "string",
+    "AddressDetails": {
+        "AddressLine1": "string",
+        "City": "string",
+        "State": "string",
+        "Zip": "string"
+    }
+}

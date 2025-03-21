@@ -1,0 +1,76 @@
+{
+  "AppName": "CS72_App_",
+  "Application_Name": "CS72_App_20231120022439",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Finlevit_payload": "https://payload.sit.tabner.konfig.io/#/655b1ed3888745736a0eec67",
+  "App_Manager": "Scott Dale",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "FO_Agent": "Mike Ross,Arthur Song,Avi Green",
+  "FrontOffice_Widgets": [
+    "Employees",
+    "Submit"
+  ],
+  "LatestVersionNO": "1",
+  "txNumber": "A257_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "AppManager": "Mike Ross,Arthur Song,Avi Green",
+  "CreateCustomerReq": {
+    "FullyQualifiedName": "King Groceries",
+    "PrimaryEmailAddr": {
+      "Address": "jdrew@myemail.com"
+    },
+    "DisplayName": "King's Groceries",
+    "Suffix": "Jr",
+    "Title": "Mr",
+    "MiddleName": "B",
+    "Notes": "Here are other details.",
+    "FamilyName": "King",
+    "PrimaryPhone": {
+      "FreeFormNumber": "(555) 555-5555"
+    },
+    "CompanyName": "King Groceries",
+    "BillAddr": {
+      "CountrySubDivisionCode": "CA",
+      "City": "Mountain View",
+      "PostalCode": "94042",
+      "Line1": "123 Main Street",
+      "Country": "USA"
+    },
+    "GivenName": "James"
+  },
+  "CreateCustomerReq_Fields": {
+    "MiddleName": "B",
+    "FamilyName": "Edith7",
+    "GivenName": "VPTFQ"
+  },
+  "UpdateCustomerReq": {
+    "MiddleName": "Mark",
+    "SyncToken": "0",
+    "sparse": true,
+    "Id": "90"
+  },
+  "DeleteCustomerReq": {
+    "domain": "QBO",
+    "sparse": true,
+    "SyncToken": "0",
+    "Active": false,
+    "Id": "90"
+  },
+  "CallbackUrl": "https://admin.env.tabner.DOMAIN/auth-provider/callback",
+  "AuthUrl": "https://appcenter.intuit.com/connect/oauth2",
+  "AccessTokenUrl": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+  "ClientID": "ABBBH8LXOPYeLTtTe81pwT8rKyIJgyHjBdqveddRGoWE9z2uXl",
+  "ClientSecret": "R847MRxHSH7RtbueKjHsaCL62zCqK2b2ZuSJs4RU",
+  "Scope": "com.intuit.quickbooks.accounting",
+  "State": "State",
+  "ClientAuthentication": "Send as Basic Auth Header",
+  "RefreshTokenUrl": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+  "AuthName": "Test Oauth2.0",
+  "AuthDescription": "Auth created using Automation script",
+  "GrantType": "Authorization Code",
+  "UserName":"mohan.srinivasan@tabnerglobal.com",
+  "Password":"Konfig@123"
+}

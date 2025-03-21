@@ -1,0 +1,17 @@
+{
+  "AppName": "CS87_App_",
+  "Application_Name": "CS87_App_20240919090036",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Finlevit_payload": "https://payload.sit.tabner.konfig.io/#/66ec439f5e963a04daa43a2e",
+  "App_Manager": "Scott Dale",
+  "Operations": "Mike Ross,Andy Young,Andy Young",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "txNumber": "A755_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Avi Green ",
+  "AppManager": "Mike Ross,Andy Young,Andy Young",
+  "Email": "hsfzc@test.com"
+}

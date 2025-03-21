@@ -1,0 +1,16 @@
+{
+  "AppName": "RS1_App_",
+  "Application_Name": "RS1_App_20250305080450",
+  "AppDescription": "Automation App to test login, create app , create worflow and publish it",
+  "VersionDescription": "Latest Version",
+  "Finlevit_payload": "https://payload.dev.tabner.konfigai.us/#/67c0c5093aaff035c93a1c8c",
+  "App_Manager": "Scott Dale",
+  "Operations": "Mike Ross,John Doe,Avi Green",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "txNumber": "",
+  "Task1": "",
+  "Task1_Actions": "",
+  "AssignedTo": "",
+  "AppManager": "Mike Ross,John Doe,Avi Green"
+}

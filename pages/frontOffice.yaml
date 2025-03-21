@@ -1,0 +1,35 @@
+pageName: frontOffice
+
+locator:
+  Design:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' edit_note ']"
+
+  Status:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' rule ']"
+
+  Roles:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()='  manage_accounts  ']"
+
+  Version Management:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()='   published_with_changes   ']"
+
+  Settings:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' tune ']"
+
+  Lock Image: 
+   typeOfLocator: xpath
+   attributeValue: "//i[contains(@class,'pi pi-lock primeng')]"
+
+  Lock Image Tooltip: 
+   typeOfLocator: xpath
+   attributeValue: "//i[contains(@class,'pi pi-lock primeng')]/../.."
+  
+  AutoAlign:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' auto_awesome ']"
+

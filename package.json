@@ -1,0 +1,50 @@
+{
+  "name": "konfig",
+  "version": "1.0.0",
+  "description": "Automation framework built to test Konfig application",
+  "main": "index.js",
+  "scripts": {
+    "pretest-onPrem-dev-moon-chromium": "cross-env Env=Dev Infra=onPrem Browser=moon-chromium npx cucumber-js -p test_runner --tags \"@CreateGroupAndAPI\" && node ./htmlReportGenerator.js",
+    "test-onPrem-dev-moon-chromium": "cross-env Env=Dev Infra=onPrem Browser=moon-chromium npx cucumber-js -p test_runner  --parallel 1 --tags \"@ChildScript\" && node ./htmlReportGenerator.js",
+    "pretest-onPrem-dev": "cross-env HEADLESS=false Env=Dev Infra=onPrem Browser=chromium npx cucumber-js -p test_runner --tags \"@CreateGroupAndAPI\" && node ./htmlReportGenerator.js",
+    "test-onPrem-dev": "cross-env HEADLESS=false Env=Dev Infra=onPrem Browser=chromium npx cucumber-js -p test_runner  --parallel 1 --tags \"@RS\" && node ./htmlReportGenerator.js",
+    "pretest-onPrem-sit": "cross-env HEADLESS=false Env=Sit Infra=onPrem Browser=chromium npx cucumber-js -p test_runner --tags \"@CreateGroupAndAPI\" && node ./htmlReportGenerator.js",
+    "test-onPrem-sit": "cross-env HEADLESS=false Env=Sit Infra=onPrem Browser=chromium npx cucumber-js -p test_runner  --parallel 1 --tags \"@apiBuilder\" && node ./htmlReportGenerator.js",
+    "pretest-onPrem-qa": "cross-env HEADLESS=false Env=QA Infra=onPrem Browser=chromium npx cucumber-js -p test_runner --tags \"@CreateGroupAndAPI\" && node ./htmlReportGenerator.js",
+    "test-onPrem-qa": "cross-env HEADLESS=false Env=QA Infra=onPrem Browser=chromium npx cucumber-js -p test_runner --parallel 4 --tags \"@SuperScript\"  && node ./htmlReportGenerator.js",
+    "pretest-onPrem-stg": "cross-env HEADLESS=false Env=Stg Infra=onPrem Browser=chromium npx cucumber-js -p test_runner --tags \"@CreateGroupAndAPI\" && node ./htmlReportGenerator.js",
+    "test-onPrem-stg": "cross-env HEADLESS=false Env=Stg Infra=onPrem Browser=chromium npx cucumber-js -p test_runner --parallel 1 --tags \"@SuperScript\"  && node ./htmlReportGenerator.js",
+    "pretest-cloud-dev-moon-chromium": "cross-env Env=Dev Infra=cloud Browser=moon-chromium npx cucumber-js -p test_runner --tags \"@CreateGroupAndAPI\" && node ./htmlReportGenerator.js",
+    "test-cloud-dev-moon-chromium": "cross-env Env=Dev Infra=cloud Browser=moon-chromium npx cucumber-js -p test_runner  --parallel 5 --tags \"@ChildScript\" && node ./htmlReportGenerator.js",
+    "pretest-cloud-dev11": "cross-env HEADLESS=false Env=Dev Infra=cloud Browser=chromium npx cucumber-js -p test_runner --tags \"@CreateGroupAndAPI\" && node ./htmlReportGenerator.js",
+    "test-cloud-dev": "cross-env HEADLESS=false Env=Dev Infra=cloud Browser=chromium npx cucumber-js -p test_runner  --parallel 1 --tags \"@RS1\" && node ./htmlReportGenerator.js",
+    "pretest-cloud-stg1111": "cross-env HEADLESS=false Env=Stg Infra=cloud Browser=chromium npx cucumber-js -p test_runner --tags \"@CreateGroupAndAPI\" && node ./htmlReportGenerator.js",
+    "test-cloud-stg": "cross-env HEADLESS=false Env=Stg Infra=cloud Browser=chromium npx cucumber-js -p test_runner --parallel 1 --tags \"@RS1\"  && node ./htmlReportGenerator.js",
+    "test-report": "node ./htmlReportGenerator.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure-rest/ai-inference": "^1.0.0-beta.5",
+    "@azure/core-auth": "^1.9.0",
+    "@azure/core-sse": "^2.1.3",
+    "@cucumber/cucumber": "^8.10.0",
+    "@playwright/test": "^1.50.1",
+    "axios": "^1.3.5",
+    "cucumber-html-reporter": "^5.5.0",
+    "dotenv": "^16.0.3",
+    "js-yaml": "^4.1.0",
+    "moment": "^2.29.4",
+    "playwright": "^1.50.1",
+    "playwright-firefox": "^1.50.1",
+    "playwright-webkit": "^1.50.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "multiple-cucumber-html-reporter": "^3.9.2"
+  }
+}

@@ -1,0 +1,26 @@
+pageName: queue
+
+locator:
+  searchQueue:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search queue by name']"
+
+  queueList:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='table-widget']//div[@class='f-tbody']//div[@class='f-tr']"
+ 
+  testConnection:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Test Connection']"
+
+  testConnectionSuccess:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'connection')]"
+
+  cancel:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Cancel']"
+
+  queueName:
+    typeOfLocator: xpath
+    attributeValue: "((//div[@class='table-widget']//div[@class='f-tbody']//div[@class='f-tr'])[queueNo]//div[@class='ng-star-inserted'])[1]"

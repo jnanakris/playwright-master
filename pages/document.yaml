@@ -1,0 +1,64 @@
+pageName: document
+
+locator:
+  searchDocument:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search doc by source name']"
+
+  documentList:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='table-widget']//div[@class='f-tbody']//div[@class='f-tr']"
+ 
+  testConnection:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Test Connection']"
+
+  testConnectionSuccess:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'connection')]"
+
+  cancel:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Cancel']"
+
+  documentName:
+    typeOfLocator: xpath
+    attributeValue: "((//div[@class='table-widget']//div[@class='f-tbody']//div[@class='f-tr'])[queueNo]//div[@class='ng-star-inserted'])[1]"
+
+  addDocument:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Document']"
+
+  type:
+    typeOfLocator: xpath
+    attributeValue: "//*[@placeholder='Type']//span[contains(@class,'p-dropdown-label')]"
+
+  name:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Name']/../..//input"
+
+  root:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Root']/../..//input"
+
+  accessKey:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Access Key']/../..//input"
+
+  secretKey:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Secret Key']/../..//input"
+
+  bucketName:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Bucket Name']/../..//input"
+
+  awsRegion:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' AWS Region']/../..//span[contains(@class,'p-dropdown-label')]"
+
+  save:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"
+
+  

@@ -1,0 +1,139 @@
+pageName: HomePage
+
+
+locator:
+  Group:
+    typeOfLocator: xpath
+    attributeValue: "(//i[text()=' groups '])[1]"
+
+  Members:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' person_pin ']"  
+  
+  Queue:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='side-nav-container']//i[text()=' queue ']"  
+
+  Source:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' source ']"    
+
+  Document:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' document_scanner ']"      
+
+  Environment:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' display_settings ']"  
+
+  API Generator:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'side-nav-container')]//i[text()=' electrical_services ']"
+
+  Support:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' help ']"     
+
+  Email:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' mail ']"   
+
+  Logout:
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' logout ']"      
+
+  Admin:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='avatar s-28']"    
+
+  GroupAssertion:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Groups']"     
+
+  MembersToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Members']"    
+
+  GroupsToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Groups']"             
+
+  QueueToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Queue']"          
+
+  PayloadToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Payload']"    
+
+  DocumentToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Document']" 
+
+  EnvironmentsToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Environments']"  
+
+  APIGeneratorToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='API Generator']"    
+
+  SupportToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Support']"    
+
+  EmailToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Email Setup']"     
+
+  LogoutToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Logout']"     
+
+  AdminToolTip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text' and text()='Admin ']"          
+
+  Home:
+    typeOfLocator: xpath
+    attributeValue: "//img[@class='logo']"
+
+  GroupEdit:
+    typeOfLocator: xpath
+    attributeValue: "(//i[contains(@class,'left pi pi-ellipsis')]/../../../../../../..//span[@data-test-id='group-title']/../../..//button)[1]"
+
+  EditButton:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Edit']/../..//a"    
+
+  EditGroupAssert:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Edit Group']" 
+
+  SystemAdminValidation:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='alertdialog' and contains(text(),'Sorry, only the System Admin')]" 
+
+  Logo:
+    typeOfLocator: xpath
+    attributeValue: "//img[@alt='logo']" 
+
+  Collapse:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='collapse-icon']" 
+
+  fileSetupMenu:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'side-nav-container')]//i[normalize-space(text())='source']"  
+
+  appSourceSetupMenu:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'side-nav-container')]//i[normalize-space(text())='widgets']"    
+
+  document:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='side-nav-container']//i[text()=' document_scanner ']"           
+
+  
+
+

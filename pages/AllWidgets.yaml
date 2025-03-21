@@ -1,0 +1,170 @@
+pageName: AllWidgets
+
+locator:
+
+  Text Input:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Text Input']//img"
+
+  Number:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Number']//img"  
+
+  Button:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Button']//img"    
+
+  Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Dropdown']//img"   
+
+  Radio Group:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Radio Group']//img"  
+
+  Checkbox Group:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Checkbox Group']//img" 
+
+  Container:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Container']//img" 
+
+  Table:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Table']//img"  
+
+  Tabs Container:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Tabs Container']//img"   
+
+  Text:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Text']//img"     
+
+  Date Picker:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Date Picker']//img"
+
+  Checkbox:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Checkbox']//img" 
+
+  Text Area:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Text Area']//img"    
+
+  Email:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Email']//img"      
+
+  Phone Number:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Phone Number']//img"      
+
+  Modal:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Modal']//img"   
+
+  Stepper Container:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Stepper Container']//img"  
+
+  Collapsible Container:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Collapsible Container']//img"        
+
+  Password:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Password']//img"     
+
+  SSN:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='SSN / ITIN']//img"  
+
+  Advance Table:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Table']"     
+
+  Divider:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Divider']//img"   
+
+  Spacer:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Spacer']//img"        
+
+  Icon:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Icon']//img"      
+
+  Upload:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Upload']//img"  
+
+  Avatar:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Avatar']//img"      
+
+  Image:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Image']//img"    
+
+  TransactionTable:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Transactions Table']//img"     
+
+  Header:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Header']//img"     
+
+  Footer:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Footer']//img"   
+
+  Address:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Address']//img"   
+
+  HeaderContainer:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='Address']//img" 
+    
+  CanvasBody:
+    typeOfLocator: xpath
+    attributeValue: "//div[@data-test-id='konfig-grid']"
+    
+  ModalBody:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='dialog']"
+
+  
+
+     
+
+  
+
+
+        
+
+
+                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

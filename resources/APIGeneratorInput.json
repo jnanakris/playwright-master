@@ -1,0 +1,18 @@
+[
+  {
+    "Userid": "sdale",
+    "FirstName": "scott",
+    "LastName": "dale",
+    "AddressDetail": {
+      "AddressDetail1": "Line1"
+    }
+  },
+  {
+    "Userid": "thanks",
+    "FirstName": "tom",
+    "LastName": "hanks",
+    "AddressDetail": {
+      "AddressDetail1": "Line1"
+    }
+  }
+]

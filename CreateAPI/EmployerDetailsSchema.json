@@ -1,0 +1,16 @@
+{
+    "Pin": "string",
+    "Details": {
+        "EmployerName": "string",
+        "ITIN": "string",
+        "EmployerId": "string",
+        "EmployerAddress": "string",
+        "EmployerPhone": "string",
+        "IsUSResident": true,
+        "EmployerEmail": "string",
+        "Country": "string",
+        "State": "string",
+        "JobType": "string",
+        "Salary": 1
+    }
+}

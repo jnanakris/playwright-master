@@ -1,0 +1,23 @@
+{
+  "SourceID": "AutomationPrimary",
+  "ProcessType": "APP001",
+  "RequestType": "APP002",
+  "TransactionID": "APp1-1001",
+  "PersonalInfo": {
+    "Pin": "string",
+    "FirstName": "string",
+    "LastName": "string",
+    "Gender": "string",
+    "Email": "string",
+    "Phone": "string",
+    "Salary": 1,
+    "IsUSCitizen": true,
+    "CountryofResidence": "string"
+  },
+  "AddressDetails": {
+    "Line1": "string",
+    "Locality": "string",
+    "State": "string",
+    "Zipcode": "string"
+  }
+}

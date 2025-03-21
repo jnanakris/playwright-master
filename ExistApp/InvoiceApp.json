@@ -1,0 +1,15 @@
+{
+  "SourceID": "InvoiceApp",
+  "ProcessType": "App120696",
+  "TransactionId": "bkt120696_001",
+  "OrderType": "Online",
+  "Name": "string",
+  "Email": "string",
+  "SSN": "356-78-0090",
+  "Phone": "string",
+  "OrderValue": 1050,
+  "Status": "Delivered",
+  "OrderInsured": true,
+  "CountryOfOrigin": "India",
+  "Url": "www.flipkart.com"
+}

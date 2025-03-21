@@ -1,0 +1,135 @@
+[
+  {
+    "PersonalInfo": {
+      "Pin": "mross",
+      "FirstName": "Mike",
+      "LastName": "Ross",
+      "Gender": "Male",
+      "Email": "mike.ross@konfig.com",
+      "Phone": "887-998-0099",
+      "Salary": 100000,
+      "IsUSCitizen": true,
+      "CountryofResidence": "US"
+    },
+    "AddressDetails": {
+      "Zipcode": "28262",
+      "Line1": "2325 West Arbors Drive",
+      "State": "NC",
+      "Locality": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Pin": "asong",
+      "FirstName": "Aurthur",
+      "LastName": "Song",
+      "Gender": "Male",
+      "Email": "aurthur.song@konfig.com",
+      "Phone": "197-998-9928",
+      "Salary": 125000,
+      "IsUSCitizen": true,
+      "CountryofResidence": "US"
+    },
+    "AddressDetails": {
+      "Zipcode": "95014",
+      "Line1": "1 Apple Park Way",
+      "State": "CA",
+      "Locality": "Cupertino"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Pin": "ayoung",
+      "FirstName": "Andy",
+      "LastName": "Young",
+      "Gender": "Female",
+      "Email": "andy.young@konfig.com",
+      "Phone": "137-343-1155",
+      "Salary": 150000,
+      "IsUSCitizen": true,
+      "CountryofResidence": "US"
+    },
+    "AddressDetails": {
+      "Zipcode": "77058",
+      "Line1": "300 Cyberonics Boulevard",
+      "State": "TX",
+      "Locality": "Houston"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Pin": "agreen",
+      "FirstName": "Avi",
+      "LastName": "Green",
+      "Gender": "Female",
+      "Email": "avi.green@konfig.com",
+      "Phone": "137-343-4422",
+      "Salary": 150000,
+      "IsUSCitizen": true,
+      "CountryofResidence": "US"
+    },
+    "AddressDetails": {
+      "Zipcode": "28134",
+      "Line1": "11025 Carolina Place Parkway",
+      "State": "NC",
+      "Locality": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Pin": "makula",
+      "FirstName": "Manikanta",
+      "LastName": "Akula",
+      "Gender": "Male",
+      "Email": "manikanta.akula@tabnerglobal.com",
+      "Phone": "737-229-0323",
+      "Salary": 70000,
+      "IsUSCitizen": false,
+      "CountryofResidence": "IN"
+    },
+    "AddressDetails": {
+      "Zipcode": "28262",
+      "Line1": "2204 Arbor Vista Dr",
+      "State": "TN",
+      "Locality": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Pin": "mohans",
+      "FirstName": "Moahan",
+      "LastName": "Srinivasan",
+      "Gender": "Male",
+      "Email": "mohan.srinivasan@tabnerglobal.com",
+      "Phone": "223-334-4455",
+      "Salary": 10000,
+      "IsUSCitizen": false,
+      "CountryofResidence": "IN"
+    },
+    "AddressDetails": {
+      "Zipcode": "28262",
+      "Line1": "2423 Red Birch Dr",
+      "State": "TN",
+      "Locality": "Charlotte"
+    }
+  },
+  {
+    "PersonalInfo": {
+      "Pin": "marul",
+      "FirstName": "Mary",
+      "LastName": "Arul",
+      "Gender": "Female",
+      "Email": "mary.arul@tabnerglobal.com",
+      "Phone": "112-223-3344",
+      "Salary": 10000,
+      "IsUSCitizen": false,
+      "CountryofResidence": "IN"
+    },
+    "AddressDetails": {
+      "Zipcode": "28262",
+      "Line1": "8066 Walnut Run Road",
+      "State": "TN",
+      "Locality": "Memphis"
+    }
+  }
+]

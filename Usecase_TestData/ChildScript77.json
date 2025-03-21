@@ -1,0 +1,32 @@
+{
+  "AppName": "ExApp_CS77_",
+  "FileName": "CS77_JSON_Inbound_File3",
+  "Application_Name": "ExApp_CS77_20240403111704",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS77.1",
+  "Finlevit_payload": "",
+  "App_Manager": "",
+  "Operations": "",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [],
+  "LatestVersionNO": "1",
+  "ProcessType": "Pr111708",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "BackOffice_Widgets": [],
+  "TransactionID": "",
+  "PayloadKey": "SourceID",
+  "ApplicationIdentifier": [
+    "ProcessType"
+  ],
+  "FileType": "JSON",
+  "Name": "Na014000",
+  "QueueName": "SQS_Automation",
+  "Queue_Dev_cloud": "SQS_Automation_Dev_cloud",
+  "Queue_Dev_onPrem": "SQS_Automation",
+  "Queue_Sit_onPrem": "SQS_Automation_Sit",
+  "Queue_Stg_cloud": "SQS_Automation_Stg_cloud",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": "Mike Ross",
+  "SourceType": "File"
+}

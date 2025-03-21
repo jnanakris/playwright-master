@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Simple data types -->
+    <xs:element name="SourceID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+    <xs:element name="ProcessType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+    <xs:element name="RequestType" type="xs:string" minOccurs="0" maxOccurs="1"/>
+    <xs:element name="TransactionID" type="xs:string" minOccurs="0" maxOccurs="1"/>
+
+    <!-- Complex data types -->
+    <xs:element name="PersonalInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Pin" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="FirstName" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="LastName" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="Gender" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="Phone" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="Salary" type="xs:integer" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="IsUSCitizen" type="xs:boolean" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="CountryofResidence" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="SSN" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="ITIN" type="xs:string" minOccurs="0" maxOccurs="1"/>
+		<xs:element name="Email" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="AddressDetails">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Line1" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="Locality" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="State" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="Zipcode" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

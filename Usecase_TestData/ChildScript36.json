@@ -1,0 +1,32 @@
+{
+  "AppName": "CS36_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS36.2",
+  "Application_Name": "CS36_20230519120552",
+  "FO_Agent": "Mike Ross",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "2",
+  "Finlevit_payload": "http://ui-fp.intg.konfig.io/#/64679fb4933cd76e9cb8d25b",
+  "txNumber": "A767_000000002",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FrontOffice_Widgets": [
+    "ChildScript35",
+    "Pin",
+    "FirstName",
+    "LastName",
+    "Email",
+    "PhoneNumber",
+    "Address",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [],
+  "Pin": "RHDDJ",
+  "First Name": "ZOGIIEB",
+  "Last Name": "EUFIPIG",
+  "Email": "ojoli@test.com",
+  "Phone Number": 1193709373,
+  "Address": 647,
+  "ClonedApplicationName": "CS36_20230519120552 Copy 1"
+}

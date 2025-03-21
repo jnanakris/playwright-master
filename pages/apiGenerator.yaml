@@ -1,0 +1,146 @@
+pageName: apiGenerator
+
+locator:
+  createAPI_btn :
+    typeOfLocator: xpath
+    attributeValue: "//app-icon-btn[@label='Create API']//span[2]"
+
+  String :
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' STRING ']"
+
+  Number :
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' NUMBER ']"
+
+  Boolean :
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Boolean ']"
+
+  Date :
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Date ']"
+
+  Array :
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' ARRAY ']"
+
+  Object :
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' OBJECT ']"
+
+  schemaContainer :
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='payload-tree-container']//div[@id='payload-mapper']"
+
+  configNameInputBox :
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text[@name='name']//div//input"
+
+  configSaveButton :
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Save']//span"
+
+  createAPINameInputBox :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'api-config')]//*[@name='name']//input"
+
+  createAPIDescInputBox :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'api-config')]//*[@name='description']//input"
+
+  createAPIEndPointInputBox :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'api-config')]//*[@name='endPoint']//input"
+
+  createAPIUniqueFieldInputBox :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'api-config')]//*[@name='uniqueField']//input"
+
+  createAPIFilterInputBox :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'api-config')]//*[@name='filterField']//input"
+
+  createAPIGenerateButton :
+    typeOfLocator: xpath
+    attributeValue: "//app-btn-primary[@label='Generate']//button"
+
+  searchAPIGenerator :
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-text[@data-test-id='api-search-input']//input"
+
+  select_first_api:
+    typeOfLocator: xpath
+    attributeValue: "(//*[contains(@data-test-id,'each-api')]//div)[3]"
+
+  Export To Service Providers:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Export To Service Providers']//button//i[contains(@class, 'down')]"
+
+  schemaContainerElement :
+    typeOfLocator: xpath
+    attributeValue: "//span[@class='payload-field' and text()='destLocator']/parent::div/parent::div/parent::app-tree-field/parent::mat-panel-title/parent::span/parent::mat-expansion-panel-header/parent::mat-expansion-panel/parent::div"
+
+  schemaContainerObject :
+    typeOfLocator: xpath
+    attributeValue: "(//span[@class='payload-field' and text()='destLocator']/following::div[@role='region'])[1]"
+
+  Export To Data Resources:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-options-button[@label='Export To Data Sources']"
+
+  apiDataCount:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Import Data')]/following-sibling::div"
+
+  uploadFile:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Upload File']/../..//button" 
+
+  availableAPI:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-card//div[@class='f-card-title ng-star-inserted']"   
+
+  apiTitle:
+    typeOfLocator: xpath
+    attributeValue: "//app-page-header//header//div[contains(@class,'title')]" 
+
+  DataImportSuccess:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Data imported successfully')]"  
+
+  Success:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Success')]" 
+
+  GeneratedField:
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='Generated Field']/../..//div[@class='p-checkbox-box']"   
+ 
+  PrefixText:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Prefix']/../..//input[@type='text']"  
+
+  MaxLength:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Max Length (Ex: 000000)']/../..//input[@type='text']" 
+
+  StartOrder:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Start']/../..//input[@ inputmode ='decimal']"         
+
+  save:
+    typeOfLocator: xpath
+    attributeValue: "//app-field-config//form//span[text()='Save']/../..//button"           
+
+
+
+
+  # uploadFile:
+  #   typeOfLocator: xpath
+  #   attributeValue: "//span[text()='Upload File']/../..//button"    
+
+
+ 
+
+  

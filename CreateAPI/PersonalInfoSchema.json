@@ -1,0 +1,20 @@
+{
+    "PersonalInfo": {
+        "Pin": "string",
+        "FirstName": "string",
+        "LastName": "string",
+        "Gender": "string",
+        "Email": "string",
+        "Phone": "string",
+        "SSN": "string",
+        "Salary": 1,
+        "IsUSCitizen": true,
+        "CountryofResidence": "string"
+    },
+    "AddressDetails": {
+        "Line1": "string",
+        "Locality": "string",
+        "State": "string",
+        "Zipcode": "string"
+    }
+}

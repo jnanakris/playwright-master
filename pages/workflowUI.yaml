@@ -1,0 +1,234 @@
+pageName: WorkFlow UI
+
+locator:
+  My Task:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-icon-preview//i[text()=' assignment_ind ']"
+
+  Team Task:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-icon-preview//i[text()=' group ']"
+
+  History:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-icon-preview//i[text()=' history ']"
+
+  Filter Transaction id:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Transaction Id']"
+
+  Transaction id Column Data:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' Transaction Id ']/../../../../..//div[@class='ng-star-inserted'])[2]"
+
+  Task Name Column Data:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' Transaction Id ']/../../../../..//div[@class='ng-star-inserted'])[3]"
+
+  Assigned To Column Data:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' Assigned To ']/../../../../..//div[@class='avatar-name'])[1]"
+
+  Logged in User:
+    typeOfLocator: xpath
+    attributeValue: "//li//finlevit-avatar//span[contains(@class,'ng-star-inserted')]"
+
+  Logged in User Tool tip:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='p-tooltip-text']"
+
+  Role Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-lib-select[@name='role']//span[contains(@class,'p-dropdown-label')]"
+
+  Details:
+    typeOfLocator: xpath
+    attributeValue: "//li[@data-test-id='details']//span"
+
+  Data Change Log:
+    typeOfLocator: xpath
+    attributeValue: "//li[@data-test-id='field-changes']//span"
+
+  Task History:
+    typeOfLocator: xpath
+    attributeValue: "//li[@data-test-id='task-history']//span"
+
+  Documents:
+    typeOfLocator: xpath
+    attributeValue: "//li[@data-test-id='documents']//span"
+
+  Actions Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Actions']//i"
+
+  Actions Dropdownoptions:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menu']//li//span"
+
+  TextInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/parent::div/following-sibling::div//input"
+
+  RadioButton:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../..//label"
+
+  No Data Transaction Table:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'no-data-container')]"
+
+  History Transaction id Column Data:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' Transaction Id ']/../../../../..//div[@class='ng-star-inserted'])[1]"
+
+  Transaction table Headers:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Transaction Id ']/../../../../..//div[@class='f-tr']//div[@class='f-column-header-name']"
+
+  Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/../..//span[contains(@class,'p-dropdown-label')]"
+
+  Button:
+    typeOfLocator: xpath
+    attributeValue: "//span[normalize-space(text())='elementName']"
+
+  TaskHistory:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='History']/../..//li[@data-test-id='task-history']"
+
+  SLA Column Data:
+    typeOfLocator: xpath
+    attributeValue: "(//div[text()=' Transaction Id ']/../../../../..//div[@class='ng-star-inserted'])[1]//span"
+
+  Comment:
+    typeOfLocator: xpath
+    attributeValue: "//textarea[contains(@class,'p-inputtextarea p-inputtext p-component')]"
+
+  OkButton:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Ok']/../..//button"
+  Pagelevel_alert_messgae:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='alert']"
+
+  Suspend:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Suspend']//span"
+
+  Suspend_Comment:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Comment']//textarea"
+
+  SLAOkButton:
+    typeOfLocator: xpath
+    attributeValue: "//span[normalize-space(text())='OK']"
+
+  SuspendDurationInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Suspend Duration']/../..//input"
+
+  SuspendDaysInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Days']/../..//input"
+
+  SuspendHoursInput:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Hours']/../..//input"
+
+  ContinueSLA:
+    typeOfLocator: xpath
+    attributeValue: "//*[@label='Continue SLA']//span"
+
+  Filter Task Name:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Task Name']"
+
+  Followup GotResponse Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Got Response']/../..//p-dropdown"
+
+  Clear Task Name Filter:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Task Name']/..//i"
+
+  Clear TransactionID Filter:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Transaction Id']/..//i"
+
+  Followup Reason Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Reason']/../..//p-dropdown"
+
+  Followup Comment:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Comment']/../..//textarea"
+
+  Preferences Menu:
+    typeOfLocator: xpath
+    attributeValue: "//li[@ng-reflect-text='Preferences']//finlevit-icon-preview//i[text()=' settings ']"
+
+  Preferences Group Name:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Group']/../../..//app-preference-row//div[@class='body-cell body-cell-2']"
+
+  Preferences Applications:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Applications']/../../..//app-preference-row//div[@class='body-cell body-cell-3']"
+
+  Preferences Role:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Role']/../../..//app-preference-row//div[@class='body-cell body-cell-4']"
+
+  My Task App Details:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='title breadcrumbs-container']"
+
+  Preference table Headers:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Group']/../..//div[@class='header-row']//div"
+
+  Roles selected:
+    typeOfLocator: xpath
+    attributeValue: "//li[@aria-selected='true']//span"
+
+  Last Updated On:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Group']/../../..//app-preference-row//div[@class='body-cell body-cell-6']"
+
+  Edit Button:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/..//span[text()='Edit']"
+
+  Application dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/..//div[@class='body-cell body-cell-3']//p-dropdown"
+
+  Role dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/..//div[@class='body-cell body-cell-4']//p-dropdown"
+
+  Set Default Button:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/..//span[text()='Set Default']"
+
+  Success:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Successfully')]"  
+
+  Transaction id Column:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Transaction Id ']/../../../../..//div[@class='ng-star-inserted']"
+ 
+  Checkbox :
+    typeOfLocator: xpath
+    attributeValue: "//label[normalize-space(text())='elementName']/../..//input" 
+
+  Reload :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Reload']" 
+
+  groupName :
+    typeOfLocator: xpath
+    attributeValue: "(//app-task-header//span)[1]" 
+  

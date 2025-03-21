@@ -1,0 +1,30 @@
+{
+  "AppName": "CS6_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS6.V1",
+  "Application_Name": "CS4_20230502090852",
+  "FO_Agent": "Mike Ross",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/64510b6712352b06f8ef836e",
+  "txNumber": "A79_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Save,",
+  "Task2": "Verify",
+  "Task2_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FrontOffice_Widgets": [
+    "Pin",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "BO Pin",
+    "Pin"
+  ],
+  "Pin": "YJLOV",
+  "First Name": "LROAYNU",
+  "Last Name": "WHTQJPE",
+  "Email": "zavqz@test.com",
+  "Phone Number": 1964928435,
+  "Address": 37327
+}

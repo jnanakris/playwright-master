@@ -1,0 +1,40 @@
+{
+  "AppName": "CS30_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS30.1",
+  "txNumber": "A885_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "Application_Name": "CS30_App_20230523063919",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "Child Script 16",
+    "First Name",
+    "Last Name",
+    "Phone Number",
+    "Email",
+    "Address",
+    "Submit",
+    "EmployerInformation",
+    "EmployerID",
+    "EmployerName",
+    "JobType",
+    "SSN/ITIN",
+    "Salary",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Child Script 16",
+    "Address",
+    "EmployerInformation"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "http://ui-fp.intg.konfig.io/#/646c97dd933cd76e9cb8f981",
+  "Employer ID": "DZFSZ",
+  "Employer Name": "ECZVN",
+  "SSN/ITIN": 430697601,
+  "Salary": 92186
+}

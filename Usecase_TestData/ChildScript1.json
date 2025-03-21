@@ -1,0 +1,30 @@
+{
+  "AppName": "CS1_App_",
+  "Application_Name": "CS1_App_20230503101450",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/64526c5f12352b06f8ef92e6",
+  "App_Manager": "Scott Dale",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Employees",
+    "Submit"
+  ],
+  "apiCount": "17",
+  "LatestVersionNO": "1",
+  "txNumber": "A130_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "BackOffice_Widgets": [
+    "Users from Employee",
+    "Employer Information",
+    "Employer ID",
+    "Employer Name",
+    "Job Type",
+    "Country",
+    "State"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green"
+}

@@ -1,0 +1,41 @@
+{
+  "AppName": "CS29_App_",
+  "Application_Name": "CS29_App_20230520040213",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS29.V1",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/6463c6d25a05663f747b18a9",
+  "GroupName": "Test QA Automation2",
+  "GroupDescription": "Group holds app created using Playwright-Automation framewrok",
+  "txNumber": "A488_000000001",
+  "Task1": "Review1",
+  "Task1_Actions": "Accept,",
+  "Task2": "Failed",
+  "Task2_Actions": "Retry,",
+  "Task3": "Final Review",
+  "Task3_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Personal Information",
+    "First Name",
+    "Last Name",
+    "Email",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Personal Information"
+  ],
+  "MailSub": "Test Mail",
+  "MailBody": "You received this email which is created through automation test script for user @First",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Pradeep Chadalawada,Mary Arul",
+  "LatestVersionNO": "1",
+  "FirstName": "MHOTGLP",
+  "LastName": "YZKUCVR",
+  "Pin": "JEIGKAI",
+  "Email": "gymey@test.com",
+  "PhoneNumber": 1671275159,
+  "SSN/ITIN": 815405300,
+  "First Name": "INIBENL",
+  "Last Name": "ADOMNHI"
+}

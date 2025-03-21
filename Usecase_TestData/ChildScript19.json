@@ -1,0 +1,24 @@
+{
+  "AppName": "CS19_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS19.1",
+  "txNumber": "A301_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "Application_Name": "CS19_App_20230510024813",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Users from FO",
+    "Submit",
+    "FO_Country"
+  ],
+  "BackOffice_Widgets": [
+    "Users from BO",
+    "BO_Country"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "2",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/645b3e32b99fb33c7653d67c"
+}

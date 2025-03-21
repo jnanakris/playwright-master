@@ -1,0 +1,43 @@
+{
+  "AppName": "CS22_App_",
+  "Application_Name": "CS22_App_20250305072551",
+  "AppDescription": "Automation App to test Response task, Manual task, Email task is executed parallel to the Merge task and Manul task to review",
+  "VersionDescription": "CS22.V1",
+  "Finlevit_payload": "https://payload.dev.tabner.konfig.io/#/67c8eb9034e56e4aeaf57f41",
+  "GroupName": "Test QA Automation2",
+  "GroupDescription": "Group holds app created using Playwright-Automation framewrok",
+  "txNumber": "A52_000000001",
+  "Task1": "Review1",
+  "Task1_Actions": "Accept,",
+  "Task2": "Final Review",
+  "Task2_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FO_Agent": "Mike Ross,John Doe,Avi Green",
+  "FrontOffice_Widgets": [
+    "Personal Information",
+    "FirstName",
+    "LastName",
+    "Pin",
+    "Email",
+    "PhoneNumber",
+    "SSN/ITIN",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Personal Information",
+    "BO-Email",
+    "BO-PhoneNumber",
+    "BO-SSN/ITIN"
+  ],
+  "MailSub": "Test Mail",
+  "MailBody": "You received this email which is created through automation test script for user @First",
+  "AppManager": "Mike Ross,John Doe,Avi Green",
+  "Operations": "Pradeep Chadalawada,Mary Arul",
+  "LatestVersionNO": "1",
+  "FirstName": "MAJDYWH",
+  "LastName": "OHYSTSL",
+  "Pin": "CZAXPYX",
+  "Email": "mpinq@test.com",
+  "PhoneNumber": 8793089596,
+  "SSN/ITIN": 344150460
+}

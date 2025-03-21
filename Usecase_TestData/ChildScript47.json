@@ -1,0 +1,43 @@
+{
+  "AppName": "CS47_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS47.1",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "Application_Name": "CS47_App_20230609053845",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Employee Information",
+    "First Name",
+    "SurName",
+    "Phone Number",
+    "Email",
+    "DOB",
+    "Gender",
+    "SSN/ITIN",
+    "Languages Known",
+    "Is US Citizen",
+    "User Name",
+    "Password",
+    "Salary",
+    "Emp Type",
+    "Address",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Employee Information"
+  ],
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/646486a4a798f832f9bcf7fe",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "First Name": "MCPPL",
+  "Phone Number": 6649503894,
+  "Email": "ttmde@test.com",
+  "SSN/ITIN": 106687179,
+  "User Name": "NWPEC",
+  "Salary": 14326,
+  "Address": 14312,
+  "txNumber": "A493_000000006",
+  "GroupName": "Automation-Test Delete Styles"
+}

@@ -1,0 +1,82 @@
+pageName: Groups
+
+locator:
+  search_group:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='side-panel-search-btn']//i"
+
+  search_group_textbox:
+    typeOfLocator: xpath
+    attributeValue: "(//*[@name='search'])[1]"
+
+  select_first_group:
+    typeOfLocator: xpath
+    attributeValue: "(//ul[@data-test-id='groups-list']//li)[1]"
+
+  create_group_icon:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Groups')]/..//i[contains(@class,'pi-plus')]"
+
+  create_group_name:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='groupName']//input"
+
+  create_group_description:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-lib-textarea[@data-test-id='description']//textarea"
+
+  create_group_Admins_Dropdown:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='appMembers' or @data-test-id='groupMembers']//input"
+
+  create_group_Admins_OK_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'OK')]"
+
+  create_group_save_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"
+
+  create_group_name_label:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='groupName']"
+
+  group_settings:
+    typeOfLocator: xpath
+    attributeValue: "//app-icon-btn[@data-test-id='group-settings-btn']//button"
+
+  Close_Search_group:
+    typeOfLocator: xpath
+    attributeValue: "//div//button[@class='f-button-secondary animate f-button-xs']"
+
+  create_group_button:
+    typeOfLocator: xpath
+    attributeValue: "//app-empty-container//span[text()='Create Group']"
+
+  group_menu_option:
+    typeOfLocator: xpath
+    attributeValue: "(//ul[@data-test-id='groups-list']//li)[1]//i"
+
+  first_group_title:
+    typeOfLocator: xpath
+    attributeValue: "(//ul[@data-test-id='groups-list']//li)[1]//span[@data-test-id='group-title']"
+
+  Group_alert_messgae:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='alert']"
+
+  Group_alert_close:
+    typeOfLocator: xpath
+    attributeValue: "//button[@aria-label='Close']"
+
+  create_group_cancel_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Cancel']"
+
+  Pagelevel_alert_messgae:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='alert']"  
+
+  group_admin:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Select']"  

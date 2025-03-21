@@ -1,0 +1,39 @@
+{
+  "AppName": "CS16_App_",
+  "Application_Name": "CS16_App_20230503102806",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS16.V1",
+  "Finlevit_payload": "http://ui-fp.qa.konfig.io/#/645292a10f890c5abca75a0d",
+  "GroupName": "Test QA Automation2",
+  "GroupDescription": "Group holds app created using Playwright-Automation framewrok",
+  "txNumber": "A141_000000001",
+  "Task1": "Review1",
+  "Task2": "Final Review",
+  "Task1_Actions": "Accept,",
+  "Task2_Actions": "Accept,",
+  "AssignedTo": " Andy Young ",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Child Script 16",
+    "First Name",
+    "Last Name",
+    "Phone Number",
+    "Email",
+    "Address",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Child Script 16",
+    "Address"
+  ],
+  "MailSub": "Test Mail",
+  "MailBody": "You received this email which is created through automation test script for user @First",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Pradeep Chadalawada,Mary Arul",
+  "LatestVersionNO": "1",
+  "First Name": "YOQTKRJ",
+  "Last Name": "FPGAQPD",
+  "Email": "vdbsj@test.com",
+  "Phone Number": 7665775850,
+  "Address": 76068
+}

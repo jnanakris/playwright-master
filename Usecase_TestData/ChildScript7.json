@@ -1,0 +1,35 @@
+{
+  "AppName": "CS7_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS7.V1",
+  "Application_Name": "CS7_20230502050959",
+  "FO_Agent": "Mike Ross",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/64517c2a12352b06f8ef89e8",
+  "txNumber": "A96_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Save,",
+  "Task2": "Verify",
+  "Task2_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FrontOffice_Widgets": [
+    "ChildScript7",
+    "FirstName",
+    "LastName",
+    "Email",
+    "PhoneNumber",
+    "Address",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "ChildScript7",
+    "BO Pin"
+  ],
+  "Pin": "SVKHW",
+  "First Name": "AAAIJQG",
+  "Last Name": "HDFKFKN",
+  "Email": "ymnrx@test.com",
+  "Phone Number": 7724050098,
+  "Address": 26246
+}

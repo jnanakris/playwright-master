@@ -1,0 +1,16 @@
+{
+  "SourceID": "CS77_JSON_Inbound_File",
+  "ProcessType": "Pr020259",
+  "TransactionId": 10573291,
+  "OrderType": "Online",
+  "Name": "Mike",
+  "Email": "mike.ross@konfig.com",
+  "SSN": "356-78-0090",
+  "Phone": "878-010-1111",
+  "OrderValue": 10050,
+  "Status": "Delivered",
+  "OrderInsured": true,
+  "CountryOfOrigin": "India",
+  "url": "https://tabnerglobal.com/",
+  "amount": "3000"
+}

@@ -1,0 +1,13 @@
+{
+    "Name": "string",
+    "Phone": "string",
+    "Id": "string",
+    "CustomerPriority__c": "string",
+    "SLA__c": "string",
+    "Active__c": "string",
+    "NumberofLocations__c": 1,
+    "UpsellOpportunity__c": "string",
+    "SLASerialNumber__c": "string",
+    "SLAExpirationDate__c": "string",
+    "CreatedTime": 1
+}

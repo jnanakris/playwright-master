@@ -1,0 +1,26 @@
+pageName: ExistingGroup
+
+locator:
+  SearchGroup:
+    typeOfLocator: xpath
+    attributeValue: "//app-icon-btn[@class='action-btn ng-star-inserted']//i[@class='left pi pi-search primeng ng-star-inserted']"
+
+  SearchBar:
+    typeOfLocator: xpath
+    attributeValue: "//input[contains(@class,'p-inputtext p-component p-element p-inputtext-xs ng-star-inserted')]" 
+
+  MohanGroup:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Mohan Group']"   
+
+  GroupAssertion:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()='Mohan Group']"    
+
+  APP:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' App ']"        
+
+ 
+
+    

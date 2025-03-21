@@ -1,0 +1,28 @@
+{
+  "AppName": "CS8_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS8.1",
+  "txNumber": "A128_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "Application_Name": "CS8_App_20230503101438",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Users from Employee",
+    "EmployerInformation",
+    "EmployerID",
+    "EmployerName",
+    "JobType",
+    "Country",
+    "State",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "EmployerInformation"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "2",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/64526c5512352b06f8ef9290"
+}

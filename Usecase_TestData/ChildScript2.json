@@ -1,0 +1,27 @@
+{
+  "AppName": "CS2_App_",
+  "AppDescription": "Automation to validate Onload Triggers using Option Mapping, response mapping and On Change Populate action for Backoffice field",
+  "VersionDescription": "Latest Version",
+  "txNumber": "A53_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Avi Green ",
+  "Application_Name": "CS2_App_20250305073317",
+  "FO_Agent": "Mike Ross,John Doe,Avi Green",
+  "FrontOffice_Widgets": [
+    "Users from Employee",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Employer Information",
+    "Employer ID",
+    "Employer Name",
+    "Job Type",
+    "Country",
+    "State"
+  ],
+  "AppManager": "Mike Ross,John Doe,Avi Green",
+  "Operations": "Mike Ross,John Doe,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "https://payload.dev.tabner.konfig.io/#/67c8ed4e34e56e4aeaf57fb9"
+}

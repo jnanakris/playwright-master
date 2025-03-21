@@ -1,0 +1,87 @@
+{
+  "type": "record",
+  "name": "dtAircheck",
+  "namespace": "com.test.avro",
+  "fields": [
+    {
+      "name": "aircheckDate",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "loadDate",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "legacyStoreCode",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "siteId",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "zipCode",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "latitude",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "longitude",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "lastUpdated",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "aircheckDateTimeStamp",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "haltecStoreNameRef",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "state",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "id",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "temperatureInCentigrade",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "dataSource",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "channelId",
+      "type": ["null", "string"],
+      "default": null
+    },
+    {
+      "name": "city",
+      "type": ["null", "string"],
+      "default": null
+    }
+  ]
+}

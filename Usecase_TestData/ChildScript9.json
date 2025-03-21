@@ -1,0 +1,27 @@
+{
+  "AppName": "CS9_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS9.1",
+  "txNumber": "A127_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "Application_Name": "CS9_App_20230503101438",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Users from Employee",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Employer Information",
+    "Employer ID",
+    "Employer Name",
+    "Job Type",
+    "Country",
+    "State"
+  ],
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "2",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/64526c5412352b06f8ef9265"
+}

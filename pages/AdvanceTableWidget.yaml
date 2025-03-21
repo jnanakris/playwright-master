@@ -1,0 +1,371 @@
+pageName: AdvanceTable
+
+locator:
+  GENERAL:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' General ']"
+
+  COLUMNS:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Columns ']"
+
+  PAGINATION:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Pagination ']"
+
+  ROWACTIONS:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Row Actions ']"
+
+  CONFIGURATIONS: 
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' CONFIGURATIONS ']"
+
+  STYLES:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Styles ']"
+
+  STEPPER:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'Stepper')]"
+
+  STEPS:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'Steps')]"
+
+  INPUT:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'Input')]"
+    
+  Name:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Name']/../..//input"
+
+  Sort:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Sort']/../..//input[@type='checkbox']"
+
+  HideHeader:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Hide Header')]/../..//div[@class='p-checkbox-box']"
+
+  AddColumn:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Column']"
+
+  Column1:
+    typeOfLocator: xpath
+    attributeValue: "//div[(@class='config-title') and (text()='Column1')]"
+
+# Add Column card xpaths
+
+  ColumnName:
+    typeOfLocator: xpath
+    attributeValue: "//h3/..//*[text()=' Name']/../..//input"
+
+  ColumnType:
+    typeOfLocator: xpath
+    attributeValue: "//h3/..//*[text()=' Column Type']/../..//div[contains(@class,'dropdown') and @role='button']"
+
+  TextInput:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Text Input']"
+
+ #xpaths for all the headers and fields in the column modal are same as widget xpaths
+
+  RowActionAlignmentLeft:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Alignment ']/../..//span[text()='Left']"
+
+  RowActionAlignmentCenter:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Alignment ']/../..//span[text()='Center']"
+
+  RowActionAlignmentRight:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Alignment ']/../..//span[text()='Right']"
+
+  OverflowPagination:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Overflow Type ']/../..//div//span[text()='Pagination']"
+
+  OverflowScroll:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Overflow Type ']/../..//div//span[text()='Scroll']"
+
+  PaginationTop:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Pagination ']/../..//div//span[text()='Top']"
+
+  PaginationBottom:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Pagination ']/../..//div//span[text()='Bottom']"
+
+  ShowFilter:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show Filter']/../..//div[@class='p-checkbox-box']"
+
+  ShowAddButton:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show Add Button']/../..//input[@type='checkbox']"
+
+  Label:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Label']/../..//input"
+
+  FieldLabel:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Field Label']/../..//input"  
+
+  AlignmentLeft:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Alignment ']/../..//div//span[text()='Left']"
+
+  AlignmentCenter:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Alignment ']/../..//div//span[text()='Center']"
+
+  AlignmentRight:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Alignment ']/../..//div//span[text()='Right']"
+
+  ShowEditButton:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show Edit Button']/../..//input[@type='checkbox']"
+
+  ShowDeleteButton:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show Delete Button']/../..//input[@type='checkbox']"
+
+  EditDataConfiguration:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Edit Data Configuration']/../..//div[@class='p-checkbox-box']"
+
+  DeleteDataConfiguration:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Delete Data Configuration']/../..//div[@class='p-checkbox-box']"
+
+  GetRecordByUniqueId:
+    typeOfLocator: xpath
+    attributeValue: "//button[@id='Get Record By Unique Id']"
+
+  UpdateRecordByUniqueId:
+    typeOfLocator: xpath
+    attributeValue: "//button[@id='Update Record By Unique Id']"
+
+  GetAllRecords:
+    typeOfLocator: xpath
+    attributeValue: "//button[@id='Get All Records']"
+
+  DeleteRecordsByUniqueId:
+    typeOfLocator: xpath
+    attributeValue: "//button[@id='Delete Record By Unique Id']"
+
+  HideConfiguration:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Hide']/../..//input[@type='checkbox']"
+
+  ConfigureDataPopulation:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Configure Data Population']/../..//input[@type='checkbox']"
+
+  AddConfig:
+    typeOfLocator: xpath
+    attributeValue:  "//button//span[text()='Add Config']"
+
+  HorizontalBorder:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Horizontal Border']/../..//input[@type='checkbox']"
+
+  VerticalBorder:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Vertical Border']/../..//input[@type='checkbox']"
+
+  TableStyle:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Table Style']/../..//div[@role='button']"
+
+  HorizontalAlignLeft:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Horizontal Align ']/../..//div//span[text()='Left']"
+
+  HorizontalAlignCenter:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Horizontal Align ']/../..//div//span[text()='Center']"
+
+  HorizontalAlignRight:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Horizontal Align ']/../..//div//span[text()='Right']"
+
+  VerticalAlignTop:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Vertical Align ']/../..//div//span[text()='Top']"
+  
+  VerticalAlignMiddle:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Vertical Align ']/../..//div//span[text()='Middle']"
+
+  VerticalAlignBottom:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Vertical Align ']/../..//div//span[text()='Bottom']"
+
+  AdvancedText:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Advanced']/../..//input[@type='checkbox']"
+
+  OpenEditor:
+    typeOfLocator: xpath
+    attributeValue: "//button//span[text()='Open Editor']"
+
+  Page1:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(@class,'ml') and text()='Page 1']"
+
+  AddModalPage:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Page')]/../../..//button[@class='config-btn']"
+
+  ModalPageFieldName:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='widget-Holder']//div[contains(text(),'Field Name')]/../..//input"
+
+  ModalPageTitle:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='widget-Holder']/..//div[contains(text(),'Title')]/../..//input"
+
+  StepperVariant:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Stepper Variant']/../..//div[@role='button']"
+
+  VerticalStepper:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Vertical']"
+
+  HorizontalStepper:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Horizontal']"
+
+  IndicatorPattern:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Indicator Pattern']/../..//div[@role='button']"
+
+  ShowHeader:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Show Header']/../..//input[@type='checkbox']"
+
+  CanvasBody:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid//div"  
+
+  CanvasSave:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='canvas-save']"  
+
+  SearchWidget:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search Components']"  
+
+  WidgetSave:
+    typeOfLocator: xpath
+    attributeValue: "//*[@data-test-id='widget-save']"
+
+  SavedSuccessfully:
+    typeOfLocator: xpath
+    attributeValue: "//*[contains(text(),'Saved successfully')]"
+
+  CancelSearchWidget:
+    typeOfLocator: xpath
+    attributeValue: "//input[@placeholder='Search Components']/parent::div//span[1]"
+
+  EditWidget:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menu']//span[text()='Edit']"
+
+  AdvanceTableEdit:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Column1 ']/ancestor::finlevit-custom-adv-table"
+
+  PAGES:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()=' Pages ']"  
+
+  ActionsEdit:
+    typeOfLocator: xpath
+    attributeValue: "//div[text()=' Actions ']/ancestor::finlevit-custom-adv-table"
+
+  DataConfigurationClose:
+    typeOfLocator: xpath
+    attributeValue: "//h3[contains(@class,'popover-header')]//i"
+
+  ModalClose:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='dialog']//i"
+
+  TableHeader:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//div[@class='f-thead ng-star-inserted']"  
+
+  OverflowElement:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-select-button[@label='Overflow Type']" 
+
+  PaginationTopCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//finlevit-custom-adv-table//div[@class='finlevit-table pagination-top']//div[@class='-pagination table-footer']"      
+
+  PaginationBottomCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//konfig-grid-item//app-grid-field//finlevit-custom-adv-table//div[@class='finlevit-table pagination-bottom']//div[@class='-pagination table-footer']"      
+    
+  FilterIconCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-grid//gridster//div//finlevit-icon-preview[@icon='pi pi-filter']" 
+
+  LabelCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//finlevit-custom-adv-table//div[@class='f-resizable-header-content']"   
+
+  FieldNameValidation:
+    typeOfLocator: xpath
+    attributeValue: "(//small[contains(@class,'validation-message')])[1]"  
+
+  ColumnAlignmentLeft:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='popover-body']//*[text()=' Alignment ']/../..//span[text()='Left']"      
+
+  ColumnAlignmentRight:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='popover-body']//*[text()=' Alignment ']/../..//span[text()='Right']"
+
+  ColumnAlignmentCenter:
+    typeOfLocator: xpath
+    attributeValue: "//div[@class='popover-body']//*[text()=' Alignment ']/../..//span[text()='Center']"             
+  
+  VALIDATIONS:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' VALIDATIONS ']"  
+
+  Required:
+    typeOfLocator: xpath
+    attributeValue: "//*[text()=' Required']/../..//input[@type='checkbox']/../..//div[@class='p-checkbox-box']"  
+
+  AddRowCanvas:
+    typeOfLocator: xpath
+    attributeValue: "//div//finlevit-icon-preview[@icon='pi pi-plus']"
+
+  DeleteIconPayload:
+    typeOfLocator: xpath
+    attributeValue: "//div//finlevit-icon-preview[@icon='pi pi-trash delete-icon']"   
+
+  EditIconPayload:
+    typeOfLocator: xpath
+    attributeValue: "//div//finlevit-icon-preview[@icon='pi pi-pencil edit-icon']"        
+
+  
+
+
+    
+  
+
+  
+    

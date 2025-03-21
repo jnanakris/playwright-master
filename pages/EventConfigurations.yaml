@@ -1,0 +1,123 @@
+pageName: EventConfigurations
+
+locator:
+
+  EventConfig:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Events Configurations']"
+  
+  AddEvent: 
+    typeOfLocator: xpath
+    attributeValue: "(//span[text()='Add an Event'])[1]"
+  
+  EventName:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'event')]/../../../../../..//div[contains(text(),'Name')]/..//input"
+  
+  EventType:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//div[contains(text(),'Event Type')]/..//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+  
+  EventWidget:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../../..//div[contains(text(),'Widget')]/..//input"
+  
+  EventDataSource:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//div[contains(text(),'Data Source' )]/..//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  EventDataList:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//div[contains(text(),'Data List' )]/..//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  EventParamType:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//finlevit-panel[@label='Params Config']//div[contains(text(),'Type')]/..//p-dropdown//span[contains(@class,'p-dropdown-label')]"
+
+  EventParamPinInput:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//finlevit-panel[@label='Params Config']//div[contains(text(),'Pin')]/..//input"
+
+  triggerExpandArrow:
+    typeOfLocator: xpath
+    attributeValue: "//button[contains(@class,'toggle-icon-btn-grey')]//i"
+
+  Single_Screen_Payload:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Single_Screen_Payload')]"
+
+  ServiceProviderCog:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//span[text()='Configure Service Provider']/../../..//i[contains(@class,'left pi pi-cog')]"
+
+  Save:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//span[text()='Save']"
+
+  Single_Screen_Container:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='elementName']/ancestor::div[contains(@class,'dk-overlay-connected')]/following-sibling::div//i"
+
+  Single_Screen_Page:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Single Screen Page']"
+
+  ResponseMappingCog:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//i[contains(@class,'left pi pi-cog')]"
+
+  Array:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Array']"
+
+  EventLabel:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName') and @class = 'label']/../../../..//button[@class='toggle-icon-btn toggle-icon-btn-grey']"
+
+  TxUIHeader:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'Transformations')]"
+
+  TxUIEventEdit:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//i[contains(@class,'pi-pencil')]"
+
+  options:
+    typeOfLocator: xpath
+    attributeValue: "//div[@role='menuitem']/..//div[normalize-space(text())='elementName']" 
+
+  Back_Office_Fields:
+    typeOfLocator: xpath
+    attributeValue: "//div[normalize-space(text())='Back_Office_Fields']"    
+
+  EventParamFilter:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'Get State')]/../../../../../..//div[text()=' Filter ']/..//input"  
+
+  defaultKey :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//*[@label='Options Mapping']//*[text()=' Default Key ']/..//input" 
+
+  defaultValue :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/ancestor::finlevit-panel//*[@label='Options Mapping']//input[@placeholder='value']"   
+
+  ResponseMapping:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//finlevit-button[@label='Configure Response Mappings']/..//i[contains(@class,'left pi pi-cog')]"
+
+  ResponsePopulate:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'EventName')]/../../../../../..//label/../..//div[@class='p-checkbox-box']"       
+
+  Success:
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Success')]" 
+
+  responseMappingSettingsIcon:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'elementName')]/../../../../../..//button//span[contains(text(),'Response Mapping')]/../.././..//i[contains(@class,'left pi pi-cog')]"  
+
+  paramUniqueFieldInputBox:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='elementName']/../../../../../..//span[contains(text(),'Params Config')]/../../../../../..//div[contains(text(),'uniqueField')]/..//input"

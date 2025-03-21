@@ -1,0 +1,18 @@
+{
+    "customerItem": {
+        "id": "string",
+        "accountGroup": "string",
+        "blockedReasonCode": "string",
+        "companyName": "string",
+        "companyName2": "string",
+        "industryKey": "string",
+        "paymentTerms": "string",
+        "paymentType": "string",
+        "poRequiredCode": "string",
+        "postingBlock": "string",
+        "taxCertificateCode": "string",
+        "taxClassificationCode": "string",
+        "workOrderAuthorization": "string",
+        "certificatesRequired": "string"
+    }
+}

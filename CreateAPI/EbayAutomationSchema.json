@@ -1,0 +1,21 @@
+{
+    "Timestamp": "string",
+    "OrderID": "string",
+    "OrderStatus": "string",
+    "AmountPaid": 1,
+    "PaymentMethod": "string",
+    "ShippingService": "string",
+    "ShippingAddress": {
+        "Name": "string",
+        "Street1": "string",
+        "Street2": "string",
+        "CityName": "string",
+        "StateOrProvince": "string",
+        "Country": "string",
+        "CountryName": "string",
+        "Phone": 1,
+        "PostalCode": "string",
+        "AddressID": 1,
+        "AddressOwner": "string"
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "AppName": "CS33_",
+  "AppDescription": "Automation to Validate Basic Field Permissions",
+  "VersionDescription": "CS33.V1",
+  "Application_Name": "CS33_20250305080019",
+  "FO_Agent": "Mike Ross,John Doe,Avi Green",
+  "AppManager": "Mike Ross,John Doe,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "https://payload.dev.tabner.konfig.io/#/67c8f3a534e56e4aeaf58129",
+  "txNumber": "A57_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "Task2": "Approve",
+  "Task2_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FrontOffice_Widgets": [
+    "ChildScript33",
+    "Pin",
+    "FirstName",
+    "Email",
+    "PhoneNumber",
+    "Validate",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "BO Pin"
+  ],
+  "Pin": "YNJMZ",
+  "First Name": "NWVDUGD",
+  "Email": "tbwyo@test.com",
+  "Phone Number": 1743527032
+}

@@ -1,0 +1,49 @@
+pageName: Roles
+
+locator:
+  roles_menu :
+    typeOfLocator: xpath
+    attributeValue: "//i[text()=' manage_accounts ']"
+
+  agent_edit_btn :
+    typeOfLocator: xpath
+    attributeValue: "//app-icon-btn[@label='Edit']"
+
+  btn_login :
+    typeOfLocator: xpath
+    attributeValue: "//*[@formcontrolname='passWord']/following::button[1]//span"
+
+  AppManager_edit_btn :
+    typeOfLocator: xpath
+    attributeValue: "(//app-icon-btn[@label='Edit'])[1]"  
+
+  Add_Role :
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Add Role']"
+
+  Add_Role_Name :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Role Name')]/../..//input"  
+
+  Add_Role_Description :
+    typeOfLocator: xpath
+    attributeValue: "//div[contains(text(),'Role Description')]/../..//textarea"   
+
+  AddRoleMembers:
+    typeOfLocator: Placeholder
+    attributeValue: "Select"    
+
+  create_Role_OK_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[contains(text(),'OK')]"    
+
+  create_Role_save_button:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"  
+
+  operations_edit_btn :
+    typeOfLocator: xpath
+    attributeValue: "(//app-icon-btn[@label='Edit'])[3]"   
+
+    
+  

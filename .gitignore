@@ -1,0 +1,21 @@
+# compiled output
+/.tmp
+/.build
+/out-tsc
+/Screenshots
+# Dependencies
+/node_modules
+# System Files
+.DS_Store/
+#Reports Folder will be ignored from git changes
+Reports/
+test-results/
+playwright-report/
+playwright/.cache/
+playwright.config.ts
+package-lock.json
+vcs.xml
+steps/.DS_Store
+Main/.DS_Store
+cucumber_report.json
+

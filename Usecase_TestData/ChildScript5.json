@@ -1,0 +1,33 @@
+{
+  "AppName": "CS5_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS5.V1",
+  "Application_Name": "CS5_App_20230502050959",
+  "FO_Agent": "Mike Ross",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/64517c2a12352b06f8ef89bd",
+  "txNumber": "A95_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "FrontOffice_Widgets": [
+    "ChildScript5",
+    "Pin",
+    "FirstName",
+    "LastName",
+    "Email",
+    "PhoneNumber",
+    "Address",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "BO Pin"
+  ],
+  "Pin": "VCJIO",
+  "First Name": "ILOXEWD",
+  "Last Name": "SYLJUOQ",
+  "Email": "phvpf@test.com",
+  "Phone Number": 7380688898,
+  "Address": 10502
+}

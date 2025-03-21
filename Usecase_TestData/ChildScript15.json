@@ -1,0 +1,14 @@
+{
+  "AppName": "CS15_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS15.V1",
+  "Application_Name": "CS15_App_20230508073707",
+  "FO_Agent": "Mike Ross",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/6459020e12352b06f8efb66f",
+  "txNumber": "A253_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross "
+}

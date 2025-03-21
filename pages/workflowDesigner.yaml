@@ -1,0 +1,7 @@
+pageName: workflowDesigner
+
+locator:
+
+   Save:
+    typeOfLocator: xpath
+    attributeValue: "//span[text()='Save']"

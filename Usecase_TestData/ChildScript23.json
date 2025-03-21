@@ -1,0 +1,43 @@
+{
+  "AppName": "CS23_App_",
+  "Application_Name": "CS23_App_20230515102220",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS23.V1",
+  "Finlevit_payload": "http://ui-fp.dev.konfig.io/#/64623aaa9e4ca04fe2148c25",
+  "GroupName": "Test QA Automation2",
+  "GroupDescription": "Group holds app created using Playwright-Automation framewrok",
+  "txNumber": "A641_000000001",
+  "Task1": "Review1",
+  "Task1_Actions": "Accept,",
+  "Task2": "Final Review",
+  "Task2_Actions": "Accept,",
+  "AssignedTo": " Andy Young ",
+  "FO_Agent": "Mike Ross",
+  "FrontOffice_Widgets": [
+    "Personal Information",
+    "FirstName",
+    "LastName",
+    "Pin",
+    "Email",
+    "PhoneNumber",
+    "SSN/ITIN",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Personal Information",
+    "BO-Email",
+    "BO-PhoneNumber",
+    "BO-SSN/ITIN"
+  ],
+  "MailSub": "Test Mail",
+  "MailBody": "You received this email which is created through automation test script for user @First",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "Operations": "Pradeep Chadalawada,Mary Arul",
+  "LatestVersionNO": "1",
+  "FirstName": "GOIIICF",
+  "LastName": "XHCGBXR",
+  "Pin": "NVOOKHY",
+  "Email": "aofod@test.com",
+  "PhoneNumber": 7198143016,
+  "SSN/ITIN": 745877769
+}

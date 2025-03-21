@@ -1,0 +1,31 @@
+{
+  "AppName": "CS45_App_",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "CS45.1",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": " Mike Ross ",
+  "Application_Name": "CS45_App_20230619105802",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "Employee Records",
+    "Address",
+    "Submit"
+  ],
+  "BackOffice_Widgets": [
+    "Employee Records"
+  ],
+  "Finlevit_payload": "https://ui-fp.dev.konfig.io/#/64909026d58a2a01440f0b8f",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "LatestVersionNO": "1",
+  "First Name": "MCPPL",
+  "Phone Number": 6649503894,
+  "Email": "ttmde@test.com",
+  "SSN/ITIN": 106687179,
+  "User Name": "NWPEC",
+  "Salary": 14326,
+  "Address": 717,
+  "txNumber": "A957_000000001",
+  "GroupName": "Automation-Test Delete Styles",
+  "Followup TaskName": "Validate Followup"
+}

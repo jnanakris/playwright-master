@@ -1,0 +1,25 @@
+{
+  "AppName": "CS81_App_",
+  "Application_Name": "CS81_App_20240110063837",
+  "AppDescription": "App created using Automation script",
+  "VersionDescription": "Latest Version",
+  "Finlevit_payload": "https://payload.dev.tabner.konfig.io/#/659e96d9cca78465be748c31",
+  "App_Manager": "Scott Dale",
+  "Operations": "Mike Ross,Andy Young,Avi Green",
+  "FO_Agent": "Mike Ross,Arthur Song,Andy Young,Avi Green",
+  "FrontOffice_Widgets": [
+    "Employees",
+    "Submit"
+  ],
+  "LatestVersionNO": "1",
+  "txNumber": "A4376_000000001",
+  "Task1": "Review",
+  "Task1_Actions": "Accept,",
+  "AssignedTo": "Mike Ross",
+  "AppManager": "Mike Ross,Andy Young,Avi Green",
+  "FileName": "CS80_Ebay_Datalist20240102042429",
+  "AuthName": "Automation No Auth",
+  "AuthDescription": "Auth created using Automation script",
+  "WorkdayRequest": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><wsse:UsernameToken><wsse:Username>ISU_Read_NonSensitiveData@tires1</wsse:Username><wsse:Password Type=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText\">pSk@E#-$?M]gd9dF</wsse:Password></wsse:UsernameToken></wsse:Security></soap:Header><soap:Body><ns0:Get_Positions_Request xmlns:ns0=\"urn:com.workday/bsvc\"><ns0:Request_References><ns0:Positions_Reference><ns0:ID ns0:type=\"Position_ID\">Position-3-5834</ns0:ID></ns0:Positions_Reference></ns0:Request_References><ns0:Request_Criteria><ns0:Field_And_Parameter_Criteria_Data><ns0:Provider_Reference><ns0:ID ns0:type=\"WID\">622c21af1b080134f901044734226a53</ns0:ID></ns0:Provider_Reference></ns0:Field_And_Parameter_Criteria_Data></ns0:Request_Criteria><ns0:Response_Filter><ns0:Page>1</ns0:Page><ns0:Count>1</ns0:Count></ns0:Response_Filter><ns0:Response_Group><ns0:Include_Position_Definition_Data>true</ns0:Include_Position_Definition_Data><ns0:Include_Position_Restrictions_Data>true</ns0:Include_Position_Restrictions_Data><ns0:Include_Default_Position_Organization_Assignment_Data>true</ns0:Include_Default_Position_Organization_Assignment_Data><ns0:Include_Worker_For_Filled_Positions_Data>true</ns0:Include_Worker_For_Filled_Positions_Data></ns0:Response_Group></ns0:Get_Positions_Request></soap:Body></soap:Envelope>",
+  "WorkdayJobProfilesRequest": "<?xml version=\"1.0\" encoding=\"utf-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\"><soap:Header><wsse:Security xmlns:wsse=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd\"><wsse:UsernameToken><wsse:Username>ISU_Read_NonSensitiveData@tires1</wsse:Username><wsse:Password Type=\"http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText\">pSk@E#-$?M]gd9dF</wsse:Password></wsse:UsernameToken></wsse:Security></soap:Header><soap:Body><ns0:Get_Job_Profiles_Request xmlns:ns0=\"urn:com.workday/bsvc\"><ns0:Request_Criteria><ns0:Transaction_Log_Criteria_Data><ns0:Transaction_Date_Range_Data><ns0:Updated_From>2022-12-21T08:00:06.885Z</ns0:Updated_From><ns0:Updated_Through>2023-12-21T09:00:05.902Z</ns0:Updated_Through><ns0:Effective_From>2022-12-21</ns0:Effective_From><ns0:Effective_Through>2023-12-21</ns0:Effective_Through></ns0:Transaction_Date_Range_Data></ns0:Transaction_Log_Criteria_Data></ns0:Request_Criteria><ns0:Response_Filter><ns0:Page>10</ns0:Page><ns0:Count>10</ns0:Count></ns0:Response_Filter><ns0:Response_Group><ns0:Include_Reference>true</ns0:Include_Reference><ns0:Include_Job_Profile_Basic_Data>true</ns0:Include_Job_Profile_Basic_Data><ns0:Include_Job_Profile_Exempt_Data>true</ns0:Include_Job_Profile_Exempt_Data></ns0:Response_Group></ns0:Get_Job_Profiles_Request></soap:Body></soap:Envelope>"
+}
